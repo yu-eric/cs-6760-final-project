@@ -2,7 +2,9 @@ import requests
 import json
 import datetime
 
-sparql_url = 'http://localhost:8890/sparql'
+sparql_url = 'http://localhost:8890/sparql?graph-uri=https://synbiohub.org/public'
+blazegraph_url = "http://localhost:8889/bigdata/sparql"
+jena_url = "http://localhost:3030/igem/sparql?graph=https://synbiohub.org/public"
 
 f = open('dominant-twins.json',)
 dominant_twins = json.load(f).get('results').get('bindings')
@@ -31,7 +33,7 @@ select ?role where {
 virtuoso_query_time = datetime.timedelta(0, 0)
 virtuoso_role_counter = 0
 
-'''
+
 # Search virtuoso using roles
 for p in dominant_twin_roles:
 	params = dict(
@@ -54,21 +56,4 @@ select ?s where {
 print("Virtuoso query time total: " + str(virtuoso_query_time))
 sparql_role_average = float(virtuoso_role_counter) / len(dominant_twin_roles)
 print("Sparql role average: " + str(sparql_role_average))
-'''
-sbh_query_time = datetime.timedelta(0, 0)
-sbh_role_counter = 0
-# Using keyword search + Pagerank
-for p in dominant_twin_role_name:
-	response = requests.get(url = 'http://localhost:7777/search/' + dominant_twin_role_name[p], headers = dict(Accept = 'application/json'))
-	sbh_query_time += response.elapsed
-	for r in response.json():
-		sbh_role_counter += 1
-		if r.get('uri') == p:
-			break
-
-print("SBH query time total: " + str(sbh_query_time))
-sbh_avg = float(sbh_role_counter) / len(dominant_twin_role_name)
-print("Sparql role average: " + str(sbh_avg))
-
-
 
