@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/categories/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/categories"/>
+    <sbol:displayId>categories</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry Categories</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/function/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/function"/>
+    <sbol:displayId>function</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>//function</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/function/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function_reporter/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/function_reporter/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/function_reporter"/>
+    <sbol:displayId>function_reporter</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>//function/reporter</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/function_reporter/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function_reporter_color/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/function_reporter_color/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/function_reporter_color"/>
+    <sbol:displayId>function_reporter_color</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>//function/reporter/color</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/function_reporter_color/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function_reporter/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/function_reporter_color/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1444017/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017"/>
+    <sbol:displayId>BBa_K1444017</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1444017"/>
+    <dcterms:title>LacZ</dcterms:title>
+    <dcterms:description>Full length beta-galactosidase (LacZ)</dcterms:description>
+    <rdfs:seeAlso rdf:resource="http://www.uniprot.org/uniprot/P00722"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Beta-galactosidase (EC 3.2.1.23) is a classic enzyme most commonly used in blue-white colony screening when used in specialized vectors. This part consists of the full length beta-galactosidase sequence which can be inserted downstream of a promoter to produce the tetrameric, 47.4kDa enzyme.
+
+Beta-galactosidase cleaves the beta-glycosidic bond of a galactose bound to an organic moiety; the physiological function is to break down beta-galactosides, such as lactose, into it&apos;s respective monnosaccharides. Beta-galactosidase can act as a reporter when provided substrates such as X-gal. The cleavage of X-gal releases galactose and the chromophoric, subtsituted indole moiety. The most common form of X-gal is 5-Bromo-3-indolyl &amp;#946;-D-galactopyranoside, which produces an intense blue pigment. Other versions of X-gal may be used to produce other color pigments. 
+
+Typically 40-60uL of a 20ug/mL X-gal solution, dissolved in dimethyl sulfoxide or dimethyl formamide, is spread on a plate and allowed to dry before plating the bacteria expressing beta-galactosidase. X-gal may also be added to liquid cultures or incorporated into solid agar media.</sbh:mutableDescription>
+    <dc:creator>Dan Ziemianowicz</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:sampleStatus>It&apos;s complicated</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>20978</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1822_</igem:group_u_list>
+    <sbh:mutableProvenance>Amplified and isolated from an expression vector.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:10:27+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The addition of BioBrick prefix and suffix.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1444017_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017_sequence"/>
+    <sbol:displayId>BBa_K1444017_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1444017"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1444017_sequence/1"/>
+    <sbol:elements>atgaccatgattacggattcactggccgtcgttttacaacgtcgtgactgggaaaaccctggcgttacccaacttaatcgccttgcagcacatccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggcgctttgcctggtttccggcaccagaagcggtgccggaaagctggctggagtgcgatcttcctgaggccgatactgtcgtcgtcccctcaaactggcagatgcacggttacgatgcgcccatctacaccaacgtaacctatcccattacggtcaatccgccgtttgttcccacggagaatccgacgggttgttactcgctcacatttaatgttgatgaaagctggctacaggaaggccagacgcgaattatttttgatggcgttaactcggcgtttcatctgtggtgcaacgggcgctgggtcggttacggccaggacagtcgtttgccgtctgaatttgacctgagcgcatttttacgcgccggagaaaaccgcctcgcggtgatggtgctgcgttggagtgacggcagttatctggaagatcaggatatgtggcggatgagcggcattttccgtgacgtctcgttgctgcataaaccgactacacaaatcagcgatttccatgttgccactcgctttaatgatgatttcagccgcgctgtactggaggctgaagttcagatgtgcggcgagttgcgtgactacctacgggtaacagtttctttatggcagggtgaaacgcaggtcgccagcggcaccgcgcctttcggcggtgaaattatcgatgagcgtggtggttatgccgatcgcgtcacactacgtctgaacgtcgaaaacccgaaactgtggagcgccgaaatcccgaatctctatcgtgcggtggttgaactgcacaccgccgacggcacgctgattgaagcagaagcctgcgatgtcggtttccgcgaggtgcggattgaaaatggtctgctgctgctgaacggcaagccgttgctgattcgaggcgttaaccgtcacgagcatcatcctctgcatggtcaggtcatggatgagcagacgatggtgcaggatatcctgctgatgaagcagaacaactttaacgccgtgcgctgttcgcattatccgaaccatccgctgtggtacacgctgtgcgaccgctacggcctgtatgtggtggatgaagccaatattgaaacccacggcatggtgccaatgaatcgtctgaccgatgatccgcgctggctaccggcgatgagcgaacgcgtaacgcgaatggtgcagcgcgatcgtaatcacccgagtgtgatcatctggtcgctggggaatgaatcaggccacggcgctaatcacgacgcgctgtatcgctggatcaaatctgtcgatccttcccgcccggtgcagtatgaaggcggcggagccgacaccacggccaccgatattatttgcccgatgtacgcgcgcgtggatgaagaccagcccttcccggctgtgccgaaatggtccatcaaaaaatggctttcgctacctggagagacgcgcccgctgatcctttgcgaatacgcccacgcgatgggtaacagtcttggcggtttcgctaaatactggcaggcgtttcgtcagtatccccgtttacagggcggcttcgtctgggactgggtggatcagtcgctgattaaatatgatgaaaacggcaacccgtggtcggcttacggcggtgattttggcgatacgccgaacgatcgccagttctgtatgaacggtctggtctttgccgaccgcacgccgcatccagcgctgacggaagcaaaacaccagcagcagtttttccagttccgtttatccgggcaaaccatcgaagtgaccagcgaatacctgttccgtcatagcgataacgagctcctgcactggatggtggcgctggatggtaagccgctggcaagcggtgaagtgcctctggatgtcgctccacaaggtaaacagttgattgaactgcctgaactaccgcagccggagagcgccgggcaactctggctcacagtacgcgtagtgcaaccgaacgcgaccgcatggtcagaagccgggcacatcagcgcctggcagcagtggcgtctggcggaaaacctcagtgtgacgctccccgccgcgtcccacgccatcccgcatctgaccaccagcgaaatggatttttgcatcgagctgggtaataagcgttggcaatttaaccgccagtcaggctttctttcacagatgtggattggcgataaaaaacaactgctgacgccgctgcgcgatcagttcacccgtgcaccgctggataacgacattggcgtaagtgaagcgacccgcattgaccctaacgcctgggtcgaacgctggaaggcggcgggccattaccaggccgaagcagcgttgttgcagtgcacggcagatacacttgctgatgcggtgctgattacgaccgctcacgcgtggcagcatcaggggaaaaccttatttatcagccggaaaacctaccggattgatggtagtggtcaaatggcgattaccgttgatgttgaagtggcgagcgatacaccgcatccggcgcggattggcctgaactgccagctggcgcaggtagcagagcgggtaaactggctcggattagggccgcaagaaaactatcccgaccgccttactgccgcctgttttgaccgctgggatctgccattgtcagacatgtataccccgtacgtcttcccgagcgaaaacggtctgcgctgcgggacgcgcgaattgaattatggcccacaccagtggcgcggcgacttccagttcaacatcagccgctacagtcaacagcaactgatggaaaccagccatcgccatctgctgcacgcggaagaaggcacatggctgaatatcgacggtttccatatggggattggtggcgacgactcctggagcccgtcagtatcggcggagttccagctgagcgccggtcgctaccattaccagttggtctggtgtcaaaaataa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

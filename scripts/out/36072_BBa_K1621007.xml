@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007"/>
+    <sbol:displayId>BBa_K1621007</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621007"/>
+    <dcterms:title>BBa_K1621007</dcterms:title>
+    <dcterms:description>anti-dihydroxyacid dehydratase</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">&lt;br&gt;
+&lt;br&gt;
+This part contains the coding sequence of a single chain variable fragment (scFv) that binds specifically to dihydroxyacid dehydratase (DHAD) of &apos;&apos;Salmonella&apos;&apos; Typhimurium.
+&lt;br&gt; 
+&lt;br&gt;
+Meyer &apos;&apos;et al.&apos;&apos; (2012) showed that DHAD acts as a specific antigen for &apos;&apos;S.&apos;&apos; Typhimurium. This subtype of the &apos;&apos;Salmonella enterica&apos;&apos; subspecies &apos;&apos;enterica&apos;&apos; causes more than 90% of all &apos;&apos;Salmonella&apos;&apos; infections. Specifically binding scFvs against DHAD were identified by phage display using the human na??ve antibody library HAL7/8. For the scFv that is encoded by this part (TM228.2.3-D9) an EC[50] value of 50 nM was determined by titration ELISA and the binding to DHAD was verified by immunoblotting.
+&lt;br&gt;
+&lt;br&gt;
+After cloning the part into an expression vector, the scFv can be efficiently overexpressed in &apos;&apos;Escherichia coli&apos;&apos;. Figure 1 shows the vector that was used for overexpression and the conditions for growth of the bacteria and induction of the expression are summarized in table 1. 
+&lt;br&gt;
+The harvested cells were lyzed by sonification and proteins were separated from cell debris by ultracentrifugation. Afterwards, the scFv was purified by affinity chromatography. The His-tag that has been C-terminally fused to the protein specifically binds to Ni-NTA agarose beads and is eluted with 500 mM imidazol. The same method was used to overexpress and purify the corresponding antigen DHAD.
+&lt;br&gt;
+The protein solutions before and after affinity purification were analyzed by SDS PAGE. Figure 2 shows that the scFv (~30 kDa) as well as DHAD (~63 kDa) were efficiently enriched and successfully purified from the whole cell lysate.  
+&lt;br&gt;
+&lt;br&gt;
+Both purified proteins were used to perform Western Blot analysis to show the specific binding properties. This is visualized in figure 3. 
+&lt;br&gt;
+&lt;br&gt;
+The part was shipped to the registry in standard pSB1C3, starting with a start codon (ATG). It was inserted into the shipping backbone by Gibson Assembly and the sequence was verified afterwards. 
+&lt;br&gt;</sbh:mutableDescription>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>25598</igem:owner_id>
+    <igem:m_user_id>25634</igem:m_user_id>
+    <igem:group_u_list>_2038_</igem:group_u_list>
+    <sbh:mutableProvenance>The part&apos;s sequence as well as an expression plasmid carrying a His-tagged variant was obtained from the group of Prof. Dr. Hust (TU Braunschweig).</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-28T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-26T10:24:41+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">At position 15 a base change from guanine to thymine was inserted by site-directed mutagenesis to remove the recognition site for PstI without causing a change in the amino acid sequence.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Other"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440547/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440547"/>
+        <sbol:displayId>annotation2440547</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>VH anti-dihydroxyacid dehydratase</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440547/range2440547/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440547/range2440547"/>
+            <sbol:displayId>range2440547</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+            <sbol:start>4</sbol:start>
+            <sbol:end>384</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440557/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440557"/>
+        <sbol:displayId>annotation2440557</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>linker region</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440557/range2440557/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440557/range2440557"/>
+            <sbol:displayId>range2440557</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+            <sbol:start>385</sbol:start>
+            <sbol:end>438</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440558/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440558"/>
+        <sbol:displayId>annotation2440558</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>VL anti-dihydroxyacid dehydratase</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440558/range2440558/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/annotation2440558/range2440558"/>
+            <sbol:displayId>range2440558</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621007/1"/>
+            <sbol:start>439</sbol:start>
+            <sbol:end>807</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004"/>
+    <sbol:displayId>BBa_K1041004</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1041004"/>
+    <dcterms:title>BBa_K1041004</dcterms:title>
+    <dcterms:description>AntG Promoter + Gus gene</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Team NRP-UEA_Norwich 2013 desgined this part using biobricks BBa_K1041001. This biobrick contains an Nde1 site after its promoter sequence, enabling a restriction digest to be performed. The Neomycin resistance coding gene was excised from BBa_K1041002 and a gene encoding Gus ligated in front of the promoter of BBa_K1041001 to create a new biobrick.</sbh:mutableDescription>
+    <dc:creator>Lucy Clark</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>17128</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1348_</igem:group_u_list>
+    <sbh:mutableProvenance>This part was designed by our team to aid our project in identifying new strains of Antimycin-Producing Actinomycetes.The 14 known biosynthetic gene clusters contain four operons: antAB, antCDE, antFG and antHIJKLMNO. The antA gene encodes a unique ECF RNA polymerase sigma factor, referred to as &amp;#963;AntA, which has the sole function of regulating antimycin synthesis by activating transcription of the antFG and antHIJKLMNO genes [1]. Homologues of the AntA sigma factor, the key regulatory protein in antimycin biosynthesis, are present in all known gene clusters [2]. Due to this property a biosensor was designed with the AntA-regulated promoter (antGp) controlling the expression of the reporter Gus. This part was produced by performing restriction digests of the part BBa_K1041001.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-01T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:08:51+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Team NRP-UEA_Norwich 2013 desgined this part using biobricks BBa_K1041001. This biobrick contains an Nde1 site after its promoter sequence, enabling a restriction digest to be performed. The Neomycin resistance coding gene was excised from BBa_K1041002 and a gene encoding Gus ligated in front of the promoter of BBa_K1041001 to create a new biobrick.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368985/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368985"/>
+        <sbol:displayId>annotation2368985</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>S. S4 AntG Promoter</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368985/range2368985/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368985/range2368985"/>
+            <sbol:displayId>range2368985</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+            <sbol:start>24</sbol:start>
+            <sbol:end>62</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368987/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368987"/>
+        <sbol:displayId>annotation2368987</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>rbs</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368987/range2368987/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368987/range2368987"/>
+            <sbol:displayId>range2368987</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+            <sbol:start>113</sbol:start>
+            <sbol:end>121</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/rbs"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368988/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368988"/>
+        <sbol:displayId>annotation2368988</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Nde site</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368988/range2368988/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368988/range2368988"/>
+            <sbol:displayId>range2368988</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+            <sbol:start>126</sbol:start>
+            <sbol:end>131</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368989/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368989"/>
+        <sbol:displayId>annotation2368989</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>GUS gene</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368989/range2368989/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/annotation2368989/range2368989"/>
+            <sbol:displayId>range2368989</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004/1"/>
+            <sbol:start>129</sbol:start>
+            <sbol:end>1940</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1041004_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004_sequence"/>
+    <sbol:displayId>BBa_K1041004_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1041004"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1041004_sequence/1"/>
+    <sbol:elements>cgcgtgacgagcgtcaccacggggccgggggattgccgccgcctcctcgcgcctcttcctctgcgacaacacacgtgtgtggccgggaccggcggacggccgcggctgagtgaagaggagaaggccatatgctgcggcccgtcgaaaccccgacccgcgagatcaagaagctggacggcctgtgggcgttcagcctcgaccgggagaactgcggtatcgaccagcggtggtgggagagcgccctccaggagtcgcgcgccatcgccgtccccggcagcttcaacgaccagttcgcggacgcggacatccgcaactacgcggggaacgtctggtatcagcgggaggtgttcatccccaagggctgggccggtcagcgcatcgtgctgcgcttcgacgccgtgacccactacggcaaggtctgggtcaacaaccaggaagtgatggagcaccagggcggctacacgcccttcgaggcggacgtgaccccgtacgtcatcgccggcaagtcggtccgcatcacggtctgcgtcaacaacgagctcaactggcagaccatcccgcccggcatggtgatcacggacgagaacggcaagaagaagcagagctacttccacgacttcttcaactacgccggcatccaccgctcggtcatgctgtacacgacgccgaacacctgggtcgacgacatcacggtggtcacccacgtggcccaggactgcaaccacgcgtccgtggactggcaggtcgtcgccaacggcgacgtgagcgtggagctccgcgacgccgagcagcaggtcgtggcgaccgggcagggcacctcggggaccctccaggtcgtgaacccccacctctggcagccgggtgagggctacctgtacgagctgtgcgtgacggcgaagagccagaccgagtgcgacatctaccccctgcgcgtcggcatccggtccgtggcggtcaagggcgagcagttcctgatcaaccacaagccgttctacttcacgggcttcggtcggcacgaggacgccgacctccgcggcaagggcttcgacaacgtcctgatggtccacgaccacgccctgatggactggatcggcgccaactcgtaccggacctcgcactacccgtacgcggaagagatgctggactgggcggacgagcacgggatcgtcgtcatcgacgaaaccgccgcggtgggcttcaacctgtccctcggcatcggcttcgaggccggcaacaagccgaaagagctctactccgaagaggccgtcaacggcgaaacccagcaggcccacctccaggcgatcaaagagctcatcgcccgcgacaagaaccacccgtccgtcgtgatgtggtcgatcgccaacgagccggacacccggccgcagggtgcccgggagtacttcgccccgctggccgaggccacccggaagctcgaccccacccggcccatcacctgcgtgaacgtgatgttctgcgacgcccacacggacaccatctccgacctcttcgacgtcctgtgcctgaaccgctactacggctggtacgtgcagtccggggacctggaaacggccgagaaggtcctggagaaagagctgctggcgtggcaggagaagctgcaccagccgatcatcatcaccgagtacggcgtggacacgctggccggtctgcactccatgtacaccgacatgtggtccgaagagtaccagtgcgcgtggctggacatgtaccaccgcgtgttcgaccgcgtcagcgcggtcgtcggcgagcaggtgtggaacttcgccgacttcgccacctcccagggcatcctccgcgtcgggggcaacaagaagggcatcttcacccgggaccgcaagcccaagtcggcggcgttcctgctccagaagcggtggaccgggatgaacttcggggagaagccgcagcagggcgggaagcagtga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

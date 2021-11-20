@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1942002/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002"/>
+    <sbol:displayId>BBa_K1942002</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1942002"/>
+    <dcterms:title>BBa_K1942002</dcterms:title>
+    <dcterms:description>A coding sequence of iRGD peptide and position it outside the membrane</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">iRGD, a tumor-penetrating peptide, can increase vascular and tissue permeability. Importantly, this effect did not require the drugs to be chemically conjugated to the peptide. To enhance the accuracy of drug delivery system and improve targeting index of drugs, iRGD peptide was displayed on the surface of the exosome containing our previously designed siRNA, allowing us to target recipient cells in vivo efficiently.
+The tumor targeting capability of exosomes was conferred by engineering the immature dendritic cells (imDCs) to express lysosome-associated membrane glycoprotein 2b (Lamp2b), a well-characterized exosomal membrane protein, fused with iRGD (CRGDKGPDC) targeting peptide for av integrin. Lamp-2b is a protein found specifically abundant in exosomal membranes. So we connect iRGD with Lamp2b by a glycine-linker, and promote the expression using cmv promoter. In that way, the iRGD exosomes (iRGD-Exos) are endowed with site-specific recognition ability and were purified from cell culture supernatants and loaded with Dox by electroporation.</sbh:mutableDescription>
+    <dc:creator>Yue Peng, Yingzi Chai, Jingyi Chen, Chenhui Deng, Xiaoyang Gu, Zining Yang</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29728</igem:owner_id>
+    <igem:m_user_id>25180</igem:m_user_id>
+    <igem:group_u_list>_2409_</igem:group_u_list>
+    <sbh:mutableProvenance>Both segments of this part originally come from Homo sapiens. The amino acid sequence of iRGD is thoroughly described in Tian???s article (Yanhua Tian. etc, Biomaterials, 2013). Therefore we can speculate its base sequence. Base sequence of Lamp-2b can be find at NCBI (Gene ID: 3920). We inserted iRGD sequence into the signal peptide region of lamp2b, connecting both parts with a glycine linker. The sequences codon of both parts were optimized referring to codon usage bias in mammals, and all the restriction sites were filtered out. We ordered the sequence from a DNA synthesis company???GenScript, add restriction site to both ends and then connected to the offered by the official department.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-09T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T05:42:00+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">We anticipate this protein to be expressed on the outer membrane as an identification signal, and it should ideally be a strong expression.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1942002_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002_sequence"/>
+    <sbol:displayId>BBa_K1942002_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1942002"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1942002_sequence/1"/>
+    <sbol:elements>atgtgcctgtcccctgtgaagggcgccaagctgatcctgatcttcctgtttctgggcgccgtgcagtccaacgccctgatcgtgaatctgaccgattctaagggcacatgcctgtacgcaaggtgtcgcggcgataagggaccagactgctctggaggagcagagtgggagatgaacttcaccatcacatatgagaccacaaaccagaccaataagaccatcacaatcgccgtgcctgataaggccacacacgacggcagctcctgtggcgacgatcggaacagcgccaagatcatgatccagttcggctttgccgtgtcctgggccgtgaatttcaccaaggaggcctctcactacagcatccacgacatcgtgctgtcctataatacctccgactctacagtgtttccaggagcagtggcaaagggagtgcacaccgtgaagaaccctgagaatttcaaggtgccactggatgtgatctttaagtgcaactctgtgctgacctacaatctgacacccgtggtgcagaagtattggggcatccacctccaggccttcgtgcagaacggcaccgtgagcaagaatgagcaggtgtgcgaggaggaccagacaccaaccacagtggcccccatcatccacaccacagccccatctaccacaaccacactgacccccacaagcacccccacacctaccccaacacccacccctacagtgggcaactactccatcaggaacggcaataccacatgcctgctggccaccatgggcctccagctgaacatcacagaggagaaggtgcccttcatctttaacatcaatcctgccaccacaaatttcaccggctcctgtcagcctcagtctgcccagctgcggctgaacaatagccagatcaagtacctggatttcatctttgccgtgaagaacgagaagcggttctacctgaaggaggtgaacgtgtacatgtatctggccaacggcagcgccttcaatatctccaacaagaatctgtctttttgggacgccccactgggctctagctacatgtgcaacaaggagcaggtgctgagcgtgtcccgcgccttccagatcaacacctttaatctgaaggtgcagcctttcaatgtgaccaagggccagtatagcacagcccaggagtgttccctggacgatgacaccatcctgatcccaatcatcgtgggagcaggactgagcggactgatcatcgtgatcgtgatcgcctacctgatcggccggagaaagacctacgccggctatcagacactgtgacactga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

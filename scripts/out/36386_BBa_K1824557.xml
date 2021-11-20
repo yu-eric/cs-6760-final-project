@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1824557/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557"/>
+    <sbol:displayId>BBa_K1824557</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1824557"/>
+    <dcterms:title>BBa_K1824557</dcterms:title>
+    <dcterms:description>RNA Thermometer A1 (Specially designed for pBAD)</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This is a specially designed A1 RNA thermometer that with a unique spacer at the front, which would make it compatible with pBAD &lt;partinfo&gt;BBa_I13453&lt;/partinfo&gt;.
+
+A1 RNA thermometer have the hairpin structure that harbors the Shine-Dalgarno sequence (SD sequence) and, in this way, make it inaccessible to the 30S unit of the bacterial ribosome, resulting in translational inactivation (Figure 2). The melting temperature of this RNA thermometer is 42 Celsius degree. Once reaching the melting temperature, hairpin structure would vanish and as a result, exposing the SD sequence to trigger the translation process. 
+
+Different promoters have their own transcription start sites and, in most cases, + 1 sites are embedded in promoter sequence. Hence, it is normal that transcripted RNA usually carry part of promoter sequence. However, for regulatory parts like RNA thermometer, truncation or alteration of the RNA sequence could be destructive. Hence, special designed RNA spacer between transcripted part of promoters and RNA thermometers are important for maintaining the secondary structure of RNA thermometer. 
+
+For pBAD &lt;partinfo&gt;BBa_I13453&lt;/partinfo&gt;, transcription starts at TCTCCAT&apos;&apos;&apos;A&apos;&apos;&apos; (transcription start site indicated in bold). Based on this, BBa_K1824557 was specially designed with a spacer that had less probability to interact with the functional structure of RNA thermometer.
+
+The possible secondary structure of A1 was simulated by RNAstructure (Fig.1). For testing results of pBAD-A1, See &lt;partinfo&gt;BBa_K1824003&lt;/partinfo&gt;.</sbh:mutableDescription>
+    <dc:creator>Wenbo Xu</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>25962</igem:owner_id>
+    <igem:m_user_id>25962</igem:m_user_id>
+    <igem:group_u_list>_2250_</igem:group_u_list>
+    <sbh:mutableProvenance>FourU was previously submitted by TuDelft 2008.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-04T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-05T08:51:07+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">To maintain the secondary structure of RNA thermometers, researchers need to be careful with of the use of any parts that couple with it. For instance, in some cases, part of operator region can be transcribed into RNAs and form tight secondary structure and thus interfere RNA thermometers.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/RNA"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000834"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1824557_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557_sequence"/>
+    <sbol:displayId>BBa_K1824557_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1824557"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1824557_sequence/1"/>
+    <sbol:elements>tactagagtactagagctctttaaaaaaaaaaagtactaaggagtactag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

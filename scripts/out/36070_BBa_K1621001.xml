@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1621001/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001"/>
+    <sbol:displayId>BBa_K1621001</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621001"/>
+    <dcterms:title>BBa_K1621001</dcterms:title>
+    <dcterms:description>Glycoprotein E epitope derived from Varicella Zoster Virus</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">An infection going along with red and itching skin that nearly every person in the world suffers from???most might know it as chickenpox and might not even remember the first infection as this often takes place during childhood. The infection is caused by a virus that belongs to the family of Herpesviridae, the same family as the Herpes Simplex Virus, and contains double-stranded DNA. It is transmitted via droplet infection or by having contact with blisters or mucous membranes. Following the first contact with the virus and with an incubation time of about two weeks the patient suffers from fever and exanthemas that normally heal without leaving scars. This first infection is called Varicella Zoster or, as mentioned above, chicken pox. All over the world it is thought that &gt;95% of adults have antibodies against the Varicella Zoster Virus in their blood.
+As the virus resides in some ganglions of the body, mostly elderly or immune deficient people might again be afflicted with the disease that is then called Herpes Zoster. It manifests itself in exanthemas restricted to the area of the respective ganglion that is affected. Additionally, the patients are very sensitive to skin contact, have a fever and feel pain. In some cases the reactivation of the virus can lead to neuritis.
+Normally the infection with the virus, the primary infection as well as the reactivation of the virus, are not life threatening and in most cases end without consequences for the patient. The primary infection is only a threat for newborns and immune deficient patients where a hemorrhagic development can be lethal. If adults are for the first time exposed to the virus it can also cause much more severe damage. The development of nervous defects is as well possible as pneumonia. The
+For our DiaCHIP we expressed the glycoprotein E of the virus. It forms heterodimers with the glycoprotein I and was found to play an important role in cell-cell attachment as well as facilitating the entry of the virus and the assembly of the virion (Mo et al.: Glycoprotein E of Varicella-Zoster Virus Enhances Cell-Cell Contact in Polarized Epithelial Cells).</sbh:mutableDescription>
+    <dc:creator>Julika Neumann, Ramona Emig, Rabea Jesser, Lara Stuehn</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>24643</igem:owner_id>
+    <igem:m_user_id>25598</igem:m_user_id>
+    <igem:group_u_list>_2038_</igem:group_u_list>
+    <sbh:mutableProvenance>The sequence was synthesized by IDT according to B??ckstr??m et al. (2011)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-28T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-30T11:00:14+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was codon optimized using the Codon Optimization Tool from IDT</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621001/annotation2439943/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/annotation2439943"/>
+        <sbol:displayId>annotation2439943</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Glycoprotein E</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621001/annotation2439943/range2439943/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/annotation2439943/range2439943"/>
+            <sbol:displayId>range2439943</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001/1"/>
+            <sbol:start>4</sbol:start>
+            <sbol:end>1551</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1621001_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001_sequence"/>
+    <sbol:displayId>BBa_K1621001_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621001"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621001_sequence/1"/>
+    <sbol:elements>atgacgaatcccgtcagagcgtctgtgctgagatatgacgattttcacaccgatgaagataaactcgacaccaatagcgtgtacgaaccatactaccacagcgatcatgcggaaagctcttgggtgaataggggtgagtcctccagaaaggcttacgaccataattcaccttacatttggcccaggaacgactacgacggctttctcgagaatgcccacgagcaccacggcgtgtacaaccagggtcgggggatcgactcaggggagcggctgatgcagcccacacagatgtctgctcaggaggacctgggcgatgataccggcatccacgtgattccgactctgaacggggatgaccgccacaagatcgtaaatgtcgaccaaaggcagtatggagacgtattcaaaggggaccttaaccctaaacctcagggccagcgcctgatagaggtctccgtggaggaaaaccacccttttacccttagagctcccattcagagaatttacggagtgcgctacaccgaaacatggagcttcctccccagtctcacttgcaccggcgacgccgcgccagccatccagcacatttgtctgaaacacaccacctgtttccaggacgttgttgtggacgtagattgtgctgagaacacaaaggaggatcagttggctgaaatctcctatcgctttcagggcaagaaggaggccgaccagccttggattgtggtaaacacctccacgctgtttgatgagcttgagctcgaccctcctgagatcgagcctggtgtactgaaagtgctccgcacagaaaagcagtatttgggggtgtacatctggaacatgaggggcagtgatggcacttccacctatgccactttcctggtcacctggaaaggcgacgagaagaccaggaaccccacaccagcggtcacacctcaaccaagaggggccgagtttcacatgtggaattaccactcccacgtgttcagtgtcggtgacacattctccctggctatgcatctgcaatacaaaatccatgaggcgccttttgatctgctcctcgaatggctctacgtgcccattgaccccacttgtcagccaatgaggctctattccacctgcttgtaccacccaaacgcaccccagtgtcttagccatatgaactctggatgtacattcacgagtccgcatcttgcccaacgcgttgcatctaccgtgtaccagaactgtgagcatgccgataactacaccgcgtattgcctgggcatcagccacatggagcccagtttcggactgatacttcacgacggcggaacaacactgaagttcgtggacacaccagagagtctctctggcctgtacgtgttcgtggtgtattttaacggacatgtggaggccgtggcttacacagtggtcagcaccgtggaccattttgtgaatgccatcgaggaacgggggttcccacccaccgcagggcagcctcctgcaacaacaaagcccaaggaaatcacccccgttaatcccgggacatctcccttgttgcgatatgccgcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

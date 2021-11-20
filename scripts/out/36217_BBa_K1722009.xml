@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009"/>
+    <sbol:displayId>BBa_K1722009</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1722009"/>
+    <dcterms:title>shTERT+GFP</dcterms:title>
+    <dcterms:description>shTERT+GFP Composite</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">hTERT, which is short for human telomerase reverse transcriptase, is a cancer-cell specific promoter. It can be activated inside cancer cells with no effect on normal cells. By mutating four base pairs of hTERT sequence, we achieved an improved promoter with higher promote efficiency named super hTERT(shTERT). As an important component of human telomerase, hTERT express only in tumor cells and other immortal cells which are telomerase positive. Only in tumor cells that can express TERT can the promoter being activated to realize targeted expression of effector gene.
+ In this plasmid, we construct hTERT with Green Fluorescent Protein(GFP), which is a widely used reporter gene. When shTERT promoter is activated, GFP is produced and be oxidized to fluoresce. By inserting this plasmid into T24 and 5637, two lines of bladder cancer cells, we are able to acquire GFP. Green fluorescent light is detected using confocal laser scanning microscopy. This indicates that hTERT promoter is able to be activated inside bladder cancer cells.</sbh:mutableDescription>
+    <dc:creator>Huilin Xie</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>26634</igem:owner_id>
+    <igem:m_user_id>20403</igem:m_user_id>
+    <igem:group_u_list>_2142_</igem:group_u_list>
+    <sbh:mutableProvenance>This composite part is assembled using shTERT and GFP. shTERT promoter is achieved from Shenzhen Second People&apos;s Hospital and GFP is achieved from 2015 Distribution Kit. We constructed the two DNA sequence in pSB1C3, the required vector.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-01T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-07T09:01:11+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The shTERT promoter that is achieved from Shenzhen Sencond People&apos;s Hospital is constructed in psi-Check2 vector. To assemble it with GFP and pSB1C3, we have to design primers with certain restriction enzyme cutting site and amplify it. Then assemble the three parts using 3A Assembly Method.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Composite"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/component2442680/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/component2442680"/>
+        <sbol:displayId>component2442680</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1722001</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/component2442683/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/component2442683"/>
+        <sbol:displayId>component2442683</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1365020</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442680/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442680"/>
+        <sbol:displayId>annotation2442680</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1722001</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442680/range2442680/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442680/range2442680"/>
+            <sbol:displayId>range2442680</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>454</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/component2442680/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442683/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442683"/>
+        <sbol:displayId>annotation2442683</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1365020</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442683/range2442683/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/annotation2442683/range2442683"/>
+            <sbol:displayId>range2442683</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/1"/>
+            <sbol:start>461</sbol:start>
+            <sbol:end>1177</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009/component2442683/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1722001/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001"/>
+    <sbol:displayId>BBa_K1722001</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1722001"/>
+    <dcterms:title>shTERT</dcterms:title>
+    <dcterms:description>shTERT is a cancer cell specific promoter with high efficiency.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Telomerase reverse transcriptase??(abbreviated to??TERT, or??hTERT??in humans) is a catalytic subunit of the??enzyme??telomerase, which, together with the??telomerase RNA component??(TERC), comprises the most important unit of the telomerase complex.
+The telomerase is a ribonucleoprotein enzyme to which multiple functions have been attributed, the most important of these is the maintenance of the telomere which is related with cellular immortalization and cancer. 85% of human tumors have telomerase activity, that in normal cells goes undetected. These characteristics make the telomerase an attractive target for chemotherapy.
+TERT??promoter??mutations were highly frequent in glioblastoma (83.9%), urothelial carcinoma (64.5%), oligodendroglioma (70.0%), medulloblastoma (33.3%) and hepatocellular carcinoma (31.4%). C228T and C250T were the most common mutations. In urothelial carcinoma, several novel rare mutations were identified. TERT??promoter??mutations were absent in gastrointestinal stromal tumour (GIST), thymic epithelial tumours, gastrointestinal leiomyoma, gastric schwannoma, cholangiocarcinoma, gastric and pancreatic cancer. TERT??promoter??mutations highly correlated with upregulated TERT mRNA expression and??telomerase??activity in adult gliomas. These mutations differentially enhanced the transcriptional activity of the TERT core??promoter.TERT??promoter??mutations are frequent in multiple tumour types and have similar distributions in Chinese cancer patients. The functional significance of these mutations reflect the importance to telomere maintenance and hence tumourigenesis, making them potential therapeutic targets.
+More??importantly , we mutate the normal TERTp into a new TERTp with high-efficency of the promotion so as to make our system work??efficiently. In the experiment, we change 4 base of the TERTp gene.
+Eventually, The telomerase reverse transcriptase promoter can specifically promotes with the identification of telomerase reverse transcriptase, which means it can only promote in cancer cells.In our system, we use TERTp to promote only in cancer cells. Together with bladder-specific hUPII promoter we can achieve the precision of system???s work in bladder cancer cells.??In our experiment, we constructed three and two plasmids before and after two times to verify the function using high-efficency TERTp.The TERTp can be used to promote in cancer cells. Similar to our system, alike synthesizing gene circuits are also expected to be one of the promising approaches to the treatment to other cancer.</sbh:mutableDescription>
+    <dc:creator>Fang Shu</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>26635</igem:owner_id>
+    <igem:m_user_id>26634</igem:m_user_id>
+    <igem:group_u_list>_2142_</igem:group_u_list>
+    <sbh:mutableProvenance>The telomerase reverse transcriptase promoter can be found in human cancer cells. In our experiment, we got the part from Shenzhen second people&apos;s hospital. Additionally, we did our system&apos;s function verification in Shenzhen second people&apos;s hospital.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-01T06:24:21+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">We designed the following primers and amplified hTERT promoter from the vector psi-Check2: Sequence(up)CCGGAATTCGGCACCTCCCTCGGGTTAG Sequence(down)TGCACTGCAGACTAGTCGCGTGGGTGGCCG. By incorporating these primers into hTERT promoter, the promoter is flanked by the iGEM prefix and suffix after amplification.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020"/>
+    <sbol:displayId>BBa_K1365020</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1365020"/>
+    <dcterms:title>BBa_K1365020</dcterms:title>
+    <dcterms:description>sfGFP(Bs)</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codes for the sfGFP protein, an optimized fluorescent reporter. Was originally optimized for Bacillus subtilis, but then showed high fluorescence in Lactococcus lactis.</sbh:mutableDescription>
+    <dc:creator>Sandra Mous</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>23000</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1741_</igem:group_u_list>
+    <sbh:mutableProvenance>PCR on plasmid MG_sfgfp(Bs), used in the study &apos;Benchmarking Various Green Fluorescent Protein Variants in Bacillus subtilis, Streptococcus pneumoniae, and Lactococcus lactis for Live Cell Imaging&apos;, see references.
+
+Plasmid kindly provided by the Molecular Genetics group of the Rijksuniversiteit Groningen.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-23T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:10:07+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Used primers: 
+forward - 5&apos;-GTTTCTTCGAATTCGCGGCCGCTTCTAGATGTCAAAAGGAGAAGAGCT-3&apos; 
+reverse - 5&apos;-GTTTCTTCCTGCAGCGGCCGCTACTAGTATTATTACTTATAAAGCTCAT-3&apos; 
+to PCR sfGFP(Bs) from the plasmid and add the BioBrick prefix and suffix.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420001/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420001"/>
+        <sbol:displayId>annotation2420001</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>stop</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420001/range2420001/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420001/range2420001"/>
+            <sbol:displayId>range2420001</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+            <sbol:start>715</sbol:start>
+            <sbol:end>717</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000319"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420000/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420000"/>
+        <sbol:displayId>annotation2420000</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>sfGFP(Bs)</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420000/range2420000/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2420000/range2420000"/>
+            <sbol:displayId>range2420000</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>717</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2419999/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2419999"/>
+        <sbol:displayId>annotation2419999</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>start</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1365020/annotation2419999/range2419999/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/annotation2419999/range2419999"/>
+            <sbol:displayId>range2419999</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000318"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/start"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1722009_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009_sequence"/>
+    <sbol:displayId>BBa_K1722009_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1722009"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722009_sequence/1"/>
+    <sbol:elements>ggcccctccctcgggttaccccacagcctaggccgattcgacctctctccgctggggccctcgctggcgtccctgcaccctgggagcgcgagcggcgcgcgggcggggaagcgcggcccagacccccgggtccgcccggagcagctgcgctgtcggggccaggccgggctcccagtggattcgcgggcacagacgcccaggaccgcgctccccacgtggcggagggactggggacccgggcacccgtcctgccccttcaccttccagctccgcctcctccgcgcggaccccgccccgtcccgaccccttccgggtttccggcccagccccttccgggccctcccagcccctccccttcctttccgcggccccgccctctcctcgcggcgcgagtttcaggcagcgctgcgtcctgctgcgcacgtgggaagccctggccccggccacccccgcgtactagatgtcaaaaggagaagagctgttcacaggtgttgtgccgattctcgttgagcttgacggagatgtaaacggacacaaattctctgttcgcggtgaaggtgaaggagatgcaacaaacggcaagctgacattgaagtttatttgcacaactggaaagctgccggttccttggccgacacttgtaacgacgctgacttacggcgttcaatgcttctctcgttatccagaccacatgaaacgccatgatttcttcaaatctgcaatgcctgaaggctacgttcaagagcgtacgatcagcttcaaagatgacggaacgtacaaaacaagagcagaagtgaagtttgaaggtgacacacttgtgaaccgcattgaattgaaaggcattgatttcaaagaagatggaaacatccttggacacaaacttgaatacaacttcaacagccacaacgtatacatcactgctgacaaacaaaaaaacggcatcaaagcaaacttcaaaatccgtcataacgtagaggacggttctgttcagcttgctgatcattatcagcaaaatacaccgatcggtgacggcccggttcttcttcctgataaccattatttatcaactcaaagcgtattatcaaaagacccaaatgaaaagcgtgaccacatggtgctgcttgaatttgtgacagctgctggtatcactcacggcatggatgagctttataagtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1722001_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001_sequence"/>
+    <sbol:displayId>BBa_K1722001_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1722001"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1722001_sequence/1"/>
+    <sbol:elements>ggcccctccctcgggttaccccacagcctaggccgattcgacctctctccgctggggccctcgctggcgtccctgcaccctgggagcgcgagcggcgcgcgggcggggaagcgcggcccagacccccgggtccgcccggagcagctgcgctgtcggggccaggccgggctcccagtggattcgcgggcacagacgcccaggaccgcgctccccacgtggcggagggactggggacccgggcacccgtcctgccccttcaccttccagctccgcctcctccgcgcggaccccgccccgtcccgaccccttccgggtttccggcccagccccttccgggccctcccagcccctccccttcctttccgcggccccgccctctcctcgcggcgcgagtttcaggcagcgctgcgtcctgctgcgcacgtgggaagccctggccccggccacccccgcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1365020_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020_sequence"/>
+    <sbol:displayId>BBa_K1365020_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1365020"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1365020_sequence/1"/>
+    <sbol:elements>atgtcaaaaggagaagagctgttcacaggtgttgtgccgattctcgttgagcttgacggagatgtaaacggacacaaattctctgttcgcggtgaaggtgaaggagatgcaacaaacggcaagctgacattgaagtttatttgcacaactggaaagctgccggttccttggccgacacttgtaacgacgctgacttacggcgttcaatgcttctctcgttatccagaccacatgaaacgccatgatttcttcaaatctgcaatgcctgaaggctacgttcaagagcgtacgatcagcttcaaagatgacggaacgtacaaaacaagagcagaagtgaagtttgaaggtgacacacttgtgaaccgcattgaattgaaaggcattgatttcaaagaagatggaaacatccttggacacaaacttgaatacaacttcaacagccacaacgtatacatcactgctgacaaacaaaaaaacggcatcaaagcaaacttcaaaatccgtcataacgtagaggacggttctgttcagcttgctgatcattatcagcaaaatacaccgatcggtgacggcccggttcttcttcctgataaccattatttatcaactcaaagcgtattatcaaaagacccaaatgaaaagcgtgaccacatggtgctgcttgaatttgtgacagctgctggtatcactcacggcatggatgagctttataagtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

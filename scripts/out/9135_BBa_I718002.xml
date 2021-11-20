@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I718002_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_I718002/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002"/>
+    <sbol:displayId>BBa_I718002</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I718002"/>
+    <dcterms:title>BBa_I718002</dcterms:title>
+    <dcterms:description>Diacylglycerol-Acyl-transferase (DGAT) for triglyceride synthesis</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">* Which species is the enzyme from? 
+Acinetobacter calcoaceticus ADP1 (Gram negative bacterium)
+
+* What reaction does it catalyze? 
+diacylglycerol + acyl-coA -&gt; triglyceride + coA-SH
+
+Studies employing total membrane fractions or extracts of recombinants E. coli strains revealed that this enzyme has a very broad substrate range, accepting long chain fatty alcohols and acyl-CoA esters ranging from C12 to C20 as well as monoacylglycerol as substrates (Kalscheuer, 2004)
+
+* Does it work in E. coli? 
+Yes. The authors of the paper have shown that it works already in vitro after purification.
+
+* Does it require anything? 
+Yes. DAG is already a compound of the phospholipid metabolism. E. coli has a Long Chain Fatty Acid (LCFA) transporter, FadL. Adding oleate in the LB medium (5mM) is probably needed.
+
+* The four reactions where DAG is involved:
+- ATP + a 1,2-diacylglycerol = ADP + an L-phosphatidate 
+- a 1,2-diacylglycerol + CDP-choline -&gt; a - phosphatidylcholine + CMP
+- an L-1-phosphatidyl-ethanolamine + KDO2-lipid IVA = a 1,2-diacylglycerol + phosphatidylethanolamine-KDO2-lipidA 
+- an MDO-O-glucose + an L-1-phosphatidyl-glycerol = a 1,2-diacylglycerol + an MDO-6-(glycerophospho)-D-glucose 
+
+* Another reactions catalyzed by DGAT?
+Yes. DGAT is also an acyl-CoA fatty alcohol acyltransferase (wax ester synthase, WS) catalyzing the final condensation of acyl-CoA and fatty alcohol. Knowing that E.coli does not produce fatty alcohol, this reaction is probably not avaible in this bacteria.
+
+* In vitro characterization of WS/DGAT:
+The molecular weight is about 53 kDa, the enzyme probably acts as homodimer (Stoevken, 2005).
+
+The highest activity was obtained at 40 - 45 ??C (Stoevken, 2005)
+
+The WS reaction follows a Michaelis - Menten kinetic but the DGAT reaction fit neither Michaelis - Menten neither cooperative enzyme kinetics (Stoevken, 2005).
+
+Palmitoyl-CoA is accepted with highest specificity (Stoevken, 2005).
+ 
+In Acinetobacter ADP1, the enzyme is associated with lipids inclusions but also with the membrane and a minor amount in the cytoplasm (Stoevken, 2005). In recombinant E.coli, the majority of WS/DGAT was membrane-associated but to some extent also located in the cytosolic fraction (Stoevken, 2005).</sbh:mutableDescription>
+    <dc:creator>David Puyraimond</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>1625</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_141_</igem:group_u_list>
+    <sbh:mutableProvenance>* Acinetobacter calcoaceticus ADP1
+* Accession number: AF529086
+* Kalscheuer,R. and Steinbuchel,A. A Novel Bifunctional Wax Ester Synthase/Acyl-CoA:Diacylglycerol Acyltransferase Mediates Wax Ester and Triacylglycerol Biosynthesis in Acinetobacter calcoaceticus ADP1. J. Biol. Chem. 278 (10), 8075-8082 (2003)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-09T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T04:07:52+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">We mutagenized Pst-1 site in position 1062 after ATG.
+We mutagenized stop codon TAAAAA into TAATAA to conform with BioBrick standards.
+We added in 5&apos; a strong RBS (BBa_B0030) and prefixe biobrick (BBa_G00000).
+In 3&apos;, we added suffixe biobrick (BBa_G00001).</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956260/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956260"/>
+        <sbol:displayId>annotation1956260</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>TAA</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956260/range1956260/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956260/range1956260"/>
+            <sbol:displayId>range1956260</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+            <sbol:start>1399</sbol:start>
+            <sbol:end>1401</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000319"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956259/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956259"/>
+        <sbol:displayId>annotation1956259</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ATG</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956259/range1956259/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956259/range1956259"/>
+            <sbol:displayId>range1956259</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+            <sbol:start>25</sbol:start>
+            <sbol:end>27</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000318"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/start"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956257/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956257"/>
+        <sbol:displayId>annotation1956257</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0030</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956257/range1956257/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956257/range1956257"/>
+            <sbol:displayId>range1956257</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>15</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/rbs"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956258/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956258"/>
+        <sbol:displayId>annotation1956258</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>DGAT</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_I718002/annotation1956258/range1956258/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/annotation1956258/range1956258"/>
+            <sbol:displayId>range1956258</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002/1"/>
+            <sbol:start>25</sbol:start>
+            <sbol:end>1401</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_I718002_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_I718002_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I718002_sequence"/>
+    <sbol:displayId>BBa_I718002_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I718002"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I718002_sequence/1"/>
+    <sbol:elements>attaaagaggagaaaatccacgctatgcgcccattacatccgattgattttatattcctgtcactagaaaaaagacaacagcctatgcatgtaggtggtttatttttgtttcagattcctgataacgccccagacacctttattcaagatctggtgaatgatatccggatatcaaaatcaatccctgttccaccattcaacaataaactgaatgggcttttttgggatgaagatgaagagtttgatttagatcatcattttcgtcatattgcactgcctcatcctggtcgtattcgtgaattgcttatttatatttcacaagagcacagtacgctgctagatcgggcaaagcccttgtggacctgcaatattattgaaggaattgaaggcaatcgttttgccatgtacttcaaaattcaccatgcgatggtcgatggcgttgctggtatgcggttaattgaaaaatcactctcccatgatgtaacagaaaaaagtatcgtgccaccttggtgtgttgagggaaaacgtgcaaagcgcttaagagaacctaaaacaggtaaaattaagaaaatcatgtctggtattaagagtcagcttcaggcgacacccacagtcattcaagagctttctcagacagtatttaaagatattggacgtaatcctgatcatgtttcaagctttcaggcgccttgttctattttgaatcagcgtgtgagctcatcgcgacgttttgcagcacagtcttttgacctagatcgttttcgtaatattgccaaatcgttgaatgtgaccattaatgatgttgtactagcggtatgttctggtgcattacgtgcgtatttgatgagtcataatagtttgccttcaaaaccattaattgccatggttccagcctctattcgcaatgacgattcagatgtcagcaaccgtattacgatgattctggcaaatttggcaacccacaaagatgatcctttacaacgtcttgaaattatccgccgtagtgttcaaaactcaaagcaacgcttcaaacgtatgaccagcgatcagattctaaattatagtgctgtcgtatatggcccagcaggactcaacataatttctggcatgatgccaaaacgccaagccttcaatctggttatttccaatgtgcctggcccaagagagccactttactggaatggtgccaaacttgatgcactctacccagcttcaattgtattagacggtcaagcattgaatattacaatgaccagttatttagataaacttgaagttggtttgattgcatgccgtaatgcattgccaagaatgcagaatttactgacacatttagaagaagaaattcaactatttgaaggcgtaattgcaaagcaggaagatattaaaacagccaattaaaaacaataaacttgattttttaatttatcagataaaactaaagggctaaattagccc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

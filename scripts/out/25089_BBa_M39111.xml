@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_M39111_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_M39111/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111"/>
+    <sbol:displayId>BBa_M39111</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_M39111"/>
+    <dcterms:title>BBa_M39111</dcterms:title>
+    <dcterms:description>Vector for creation of micro-dystrophin SFV</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The general purpose of our part is to help create a modified Semliki Forest Virus that contains micro-dystrophin mRNA in its capsid, which hopefully will be used to deliver said mRNA to muscle cells of muscular dystrophy patients. This DNA vector contains an RNA polymerase promoter, the packaging sequence from SFV (Semliki Forest Virus), the DNA sequence for micro-dystrophin, and an RNA polymerase terminator (Bba_B1006). Once this vector is transcribed into RNA in vitro, the resultant RNA is introduced into a cell in the lab. A separate helper vector (not included in this part) will be introduced into the same cell as well. This other vector will simply contain the genes for the structural proteins of SFV. Once the helper vector is translated to produce the structural capsid proteins, the virus will assemble within the cell, packaging the micro-dystrophin mRNA within the capsid of the virus. The purpose of removing the non-structural genes (other than the necessary packaging sequence) is to remove the replicating and virulent ability of the virus, so that it will not replicate within the body. This virus will then break free of the cell in which it was produced, at which point it can be harvested and injected into patients to treat dystrophin deficiency within muscle cells.</sbh:mutableDescription>
+    <dc:creator>Hannah Kempton</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Deleted"/>
+    <igem:partStatus>Released HQ 2013</igem:partStatus>
+    <igem:sampleStatus>Discontinued</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>true</igem:discontinued>
+    <dcterms:isReplacedBy rdf:resource="https://synbiohub.org/public/igem/BBa_B1006/1"/>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>13167</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1206_</igem:group_u_list>
+    <sbh:mutableProvenance>This part came from a combination of a portion of the SFV genome, in addition to the micro-dystrophin genomic sequence and standard promoters and terminator.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-14T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:14:07+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">We had to make sure only to include the packaging sequences of SFV, so that it would not be able to replicate within the patient&apos;s cells. This should also reduce the virulent capabilities of the virus.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Plasmid"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175188/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175188"/>
+        <sbol:displayId>annotation2175188</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>B1006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175188/range2175188/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175188/range2175188"/>
+            <sbol:displayId>range2175188</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>39</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175189/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175189"/>
+        <sbol:displayId>annotation2175189</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>PolyA</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175189/range2175189/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175189/range2175189"/>
+            <sbol:displayId>range2175189</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>9</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175190/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175190"/>
+        <sbol:displayId>annotation2175190</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>modified thr terminator</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175190/range2175190/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175190/range2175190"/>
+            <sbol:displayId>range2175190</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+            <sbol:start>10</sbol:start>
+            <sbol:end>31</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175191/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175191"/>
+        <sbol:displayId>annotation2175191</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>PolyA</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175191/range2175191/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175191/range2175191"/>
+            <sbol:displayId>range2175191</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+            <sbol:start>32</sbol:start>
+            <sbol:end>39</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175192/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175192"/>
+        <sbol:displayId>annotation2175192</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B1006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_M39111/annotation2175192/range2175192/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/annotation2175192/range2175192"/>
+            <sbol:displayId>range2175192</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>39</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_M39111_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_M39111_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_M39111_sequence"/>
+    <sbol:displayId>BBa_M39111_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_M39111"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_M39111_sequence/1"/>
+    <sbol:elements>aaaaaaaaaccccgcccctgacagggcggggtttttttt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

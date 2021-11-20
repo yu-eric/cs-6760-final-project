@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1210003/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003"/>
+    <sbol:displayId>BBa_K1210003</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1210003"/>
+    <dcterms:title>BBa_K1210003</dcterms:title>
+    <dcterms:description>PK401 tagged dual coding test construct</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Reporter construct for measuring the frameshifting efficiency of the PK401 pseudoknot. Includes a His-tagged CFP before the PK401 pseudoknot, and two different polypeptides in the 0 and -1 reading frames with different protein tags. 
+
+If translation is halted at the pseudoknot due to the inability to melt the mRNA secondary structure, a 27.7 kDa protein is produced of just CFP-His. 
+In the 0 frame if read-through of the pseudoknot occurs, a fragment of the IAPV dual coded gene along with a strep-tag II will be translated creating a 33.3 kDa protein of CFP-His-PK401-IAPV-StrepII.
+In the -1 frame if read-through of the pseudoknot occurs, a fragment containing the second dual coded IAPV gene along with a GST tag is produced. This contains CFP-His-PK401-IAPV2-GST, a 60.9 kDa protein.</sbh:mutableDescription>
+    <dc:creator>Harland Brandon</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:sampleStatus>It&apos;s complicated</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>6050</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1524_</igem:group_u_list>
+    <sbh:mutableProvenance>This part was synthesized by Genewiz. It contains genomic sequence from IBV virus (PK401 pseudoknot; non-infectious sequence), and from IAPV virusb(IAPV overlapping ORFs; only 7 aa used of the overlapping genes to avoid producing anything harmful).</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-14T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:09:40+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This construct was designed to verify the applicability of frameshift inducing elements in the programming of protein expression ratios.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Device"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1210003_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003_sequence"/>
+    <sbol:displayId>BBa_K1210003_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1210003"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1210003_sequence/1"/>
+    <sbol:elements>taatacgactcactataggggaattgtgagcggataacaattccccactagaaataattttgtttaactttaagaaggagatataccatggtctcaaaaggggaagaactgttcaccggcgtcgttcctatcctggttgagctggacggtgatgtgaatggccataaattctccgtatctggagaaggcgaaggtgatgctacctacggtaaattgaccctgaagttcatctgtaccactggcaaacttcctgtcccgtggcctactctggtaaccacgttaacgtggggagtacagtgtttttcacgctatccggatcatatgaaacagcacgatttttttaaatctgctatgcccgaaggttatgtccaggagcggaccattttttttaaagacgatggaaactacaaaacccgggctgaggtcaaatttgagggcgacacattagtcaatcgtattgagctgaaagggatcgattttaaggaggatggtaacatcctgggtcacaagctggagtataattacatttctcataatgtttacattaccgccgacaagcaaaaaaatggcattaaggccaatttcaaaatccgtcataacattgaggatggtagcgtgcagcttgccgaccactatcaacagaatacgccgattggtgatggcccggtattgttaccggataaccactatctgagcactcagtctgcattgtccaaagatccgaatgaaaaacgcgaccatatggtgctgctggagtttgtgacggcggcgggtatcactctgggcatggatgaactgtataagcaccaccaccaccaccacagctttttaaagcagaaagcgcgcgcacggagcgtggcgtgcgcgcgcaagcaagtggatgtgatcctgatgttgaaaagccacgcttgggccatgatgtggaaactccaaatctggagccatccgcagttcgaaaaatgatgtcgccaattttggggtactggaaaatcaagggtcttgtccaaccgacccgtctcttactggaatacctggaagagaaatacgaagaacatctgtacgaacgcgacgaaggggataaatggcgcaacaagaaatttgagctgggcttagagtttcctaacctcccgtattatattgacggtgatgttaaactcacacaaagtatggcaatcatccgttacatcgcagacaaacataacatgttaggtggttgcccgaaagagcgtgctgaaatcagtatgctggagggggctgtgcttgatatccgctatggcgtctcacgcattgcatacagtaaagacttcgagacgctgaaggtcgactttttatcaaaattaccggaaatgcttaaaatgtttgaagatcgcctttgccacaaaacctatctgaatggtgatcacgtcacgcatcctgattttatgctgtatgatgctttggatgtggtgttatatatggatcctatgtgtctcgatgccttccccaaactggtgtgtttcaaaaaacgcattgaagcaattccgcaaattgataagtacttaaaatctagtaaatacatcgcatggccgctgcaagggtggcaagcaacgtttggtgggggagaccacccgccgaagtctgacttagtccctcgtggtagcccggaatttccgggtcgccttgagcggcctcaccgtgattaaccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

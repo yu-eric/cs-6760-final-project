@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1621003/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003"/>
+    <sbol:displayId>BBa_K1621003</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621003"/>
+    <dcterms:title>BBa_K1621003</dcterms:title>
+    <dcterms:description>TeNT_Hc - C-terminal part of the heavy chain (tetanus toxin)</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">If the ambulance is called to take care of an injured person often the first thing they do is to perform a preventing vaccination against Clostridium tetani. This is a little anaerobic gram-positive rod-shaped bacillus that forms spores. These can even survive in inhospitable areas and are present in soil. They can enter the human body easily via small wounds which is why injured people are at high risk of getting infected with C. tetani but cannot transmit the infection to other individuals.
+In regions where people are not vaccinated and good health care is not provided, tetanus, which is caused by the bacterium, is a very common cause of death following injuries. The bacterium produces two toxins, named tetanospasmin and tetanolysin. The former was found to cause tetanus by reaching the bone marrow via the nerves. There it is responsible for provoking hypersensitivity, increased reflexes and spasms. The latter causes damage to the heart muscle and blood components.
+After an infection with C. tetani the first symptoms are headache, muscle and dorsal pain and a feeling of being tired. Additionally, the patient may feel some tautness in the area of the injury and reveal sensitivity to light and noise. If the patient is not taken care of, the infection is manifested by local stiffening of muscles, mainly those in the area of the jaw and neck. In the following progression the patient will suffer from high fever and muscle spasms. Those will at first be located in the face but spread over the whole body what causes the typical extended position. The immense tension in the muscles due to the effect of the toxins can cause lesions as well as dislocations of the joints or broken bones. As a consequence, many patients suffer from shortened muscles, ankylosis (stiffness of the joints) or spine deformity. In case of the lack of appropriate health care, death due to suffocation or cardiovascular failure is common and occurs partially despite previous vaccination.
+To avoid long-term effects due to an infection with C. tetani or even death, the wound is excised and surgically taken care of. Additionally, the patient will be treated with antibiotics and will be given antibodies targeting the toxin.
+For our DiaCHIP we expressed a part of the tetanospasmin protein that is generally referred to as tetanustoxin. It consists of a heavy and a light chain that are linked by disulfide bonds. We worked with the carboxyl-terminal domain of the heavy chain that is able to bind to the target membrane and allows the internalization of the actual toxic region of the light chain. As we did not express any of the toxic fragments there was no need for special safety measures. The toxin fragment interfering with the neuronal system was not expressed and the part we used is not able to reproduce itself.</sbh:mutableDescription>
+    <dc:creator>Lara Stuehn, Ramona Emig, Julika Neumann, Rabea Jesser</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>25600</igem:owner_id>
+    <igem:m_user_id>25598</igem:m_user_id>
+    <igem:group_u_list>_2038_</igem:group_u_list>
+    <sbh:mutableProvenance>The sequence for this part was obtained from Yu et. al (2010) and synthesized by Integrated DNA Technolgies.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-30T12:26:34+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was codon optimized for expression in E.coli with the codon optimization tool from IDT.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621003/annotation2439313/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/annotation2439313"/>
+        <sbol:displayId>annotation2439313</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Clostridium tetani TeNT_Hc</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621003/annotation2439313/range2439313/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/annotation2439313/range2439313"/>
+            <sbol:displayId>range2439313</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003/1"/>
+            <sbol:start>4</sbol:start>
+            <sbol:end>1353</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1621003_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003_sequence"/>
+    <sbol:displayId>BBa_K1621003_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621003"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621003_sequence/1"/>
+    <sbol:elements>aaaaatttagattgctgggtggataatgaggaagatattgatgtcattctgaaaaaaagcactattttgaatctggatatcaacaacgatatcatctccgatatctctggcttcaattcctcggtaatcacatatccggacgcacagctggttccgggcatcaacggtaaggccattcacttggtgaacaacgagtcgagcgaggttattgtccacaaagctatggatatcgaatataacgatatgtttaataactttacggtgagcttctggctgcgcgtgccaaaagtaagtgcatcccatttagaacagtacgacaccaacgaatacagtattatttccagtatgaagaaatattcgctttcgatcggctcaggatggagtgtaagtcttaaaggcaacaatcttatttggacgttgaaagatagcgccggcgaagtgcgccagattacatttcgcgacttgagtgataaatttaacgcatacctggcaaacaagtgggtattcattactattaccaatgatcgcctgagtagtgccaacctgtacatcaacggcgtattgatgggttccgcagaaattaccggcttgggtgccatccgtgaagataacaatatcactttgaaactcgaccgctgcaacaataataaccaatatgtatcgatcgataaattccggatcttttgtaaagctcttaacccgaaagagattgagaaactctacacgtcatatttgtccattaccttcctgcgtgatttctggggcaatccgctgcggtacgacaccgaatactaccttattcctgtcgcctatagtagtaaagatgtccagttaaaaaacattacagattatatgtaccttaccaacgcgccttcgtacaccaacgggaagctgaacatttattaccgccgtctgtacagcggtctgaaatttatcattaaacggtatacgcctaacaatgagattgactccttcgtccggtcgggggactttatcaaattgtatgtttcatataataacaacgaacacattgtcggctacccaaaagatggaaacgcgtttaataacctcgaccgcattctgcgtgtcggctacaacgcgccaggaatcccgttatacaagaaaatggaagccgtcaaactccgcgatcttaaaacttattcagtgcagcttaaactctacgatgacaaagatgcttcactgggtttagtcggaactcataacggccagatcggcaacgatccaaaccgcgacatcttaatcgcgtcgaactggtattttaaccacctgaaagataaaaccctgacctgtgattggtatttcgtccctaccgatgaaggctggaccaatgat</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

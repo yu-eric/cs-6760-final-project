@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/pSB1AC0_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/pSB1AC0/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0"/>
+    <sbol:displayId>pSB1AC0</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:pSB1AC0"/>
+    <dcterms:title>pSB1AC0</dcterms:title>
+    <dcterms:description>pSB1AC0</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dc:creator>Reshma Shetty</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>84</igem:owning_group_id>
+    <igem:owner_id>126</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_41_</igem:group_u_list>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-31T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:14:55+00:00</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Plasmid"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000155"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878287/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878287"/>
+        <sbol:displayId>annotation1878287</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>end of upstream terminator</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878287/range1878287/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878287/range1878287"/>
+            <sbol:displayId>range1878287</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>2984</sbol:start>
+            <sbol:end>2987</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878286/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878286"/>
+        <sbol:displayId>annotation1878286</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>upstream terminator stem loop</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878286/range1878286/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878286/range1878286"/>
+            <sbol:displayId>range1878286</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>2997</sbol:start>
+            <sbol:end>3016</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878279/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878279"/>
+        <sbol:displayId>annotation1878279</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>VF2</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878279/range1878279/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878279/range1878279"/>
+            <sbol:displayId>range1878279</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>2908</sbol:start>
+            <sbol:end>2927</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/primer_binding"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878278/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878278"/>
+        <sbol:displayId>annotation1878278</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>P(BLA)</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878278/range1878278/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878278/range1878278"/>
+            <sbol:displayId>range1878278</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>2820</sbol:start>
+            <sbol:end>2820</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878277/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878277"/>
+        <sbol:displayId>annotation1878277</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AmpR</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878277/range1878277/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878277/range1878277"/>
+            <sbol:displayId>range1878277</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>1925</sbol:start>
+            <sbol:end>2785</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878270/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878270"/>
+        <sbol:displayId>annotation1878270</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>C insertion</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878270/range1878270/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878270/range1878270"/>
+            <sbol:displayId>range1878270</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>1911</sbol:start>
+            <sbol:end>1911</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001059"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/mutation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878251/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878251"/>
+        <sbol:displayId>annotation1878251</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>CmR</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878251/range1878251/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878251/range1878251"/>
+            <sbol:displayId>range1878251</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>1155</sbol:start>
+            <sbol:end>1813</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878244/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878244"/>
+        <sbol:displayId>annotation1878244</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Silent G-&gt;A mutation</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878244/range1878244/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878244/range1878244"/>
+            <sbol:displayId>range1878244</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>1229</sbol:start>
+            <sbol:end>1229</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:1000008"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/s_mutation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878240/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878240"/>
+        <sbol:displayId>annotation1878240</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>T0 terminator</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878240/range1878240/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878240/range1878240"/>
+            <sbol:displayId>range1878240</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>1034</sbol:start>
+            <sbol:end>1139</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878239/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878239"/>
+        <sbol:displayId>annotation1878239</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>rep (pMB1)</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878239/range1878239/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878239/range1878239"/>
+            <sbol:displayId>range1878239</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>253</sbol:start>
+            <sbol:end>867</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878223/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878223"/>
+        <sbol:displayId>annotation1878223</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ORI</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878223/range1878223/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878223/range1878223"/>
+            <sbol:displayId>range1878223</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>268</sbol:start>
+            <sbol:end>268</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878213/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878213"/>
+        <sbol:displayId>annotation1878213</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>VR</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878213/range1878213/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878213/range1878213"/>
+            <sbol:displayId>range1878213</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>149</sbol:start>
+            <sbol:end>168</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/primer_binding"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878209/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878209"/>
+        <sbol:displayId>annotation1878209</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>E. coli his operon terminator</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878209/range1878209/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878209/range1878209"/>
+            <sbol:displayId>range1878209</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>14</sbol:start>
+            <sbol:end>85</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878208/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878208"/>
+        <sbol:displayId>annotation1878208</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>E. coli his operon terminator stem loop</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878208/range1878208/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878208/range1878208"/>
+            <sbol:displayId>range1878208</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>22</sbol:start>
+            <sbol:end>56</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878207/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878207"/>
+        <sbol:displayId>annotation1878207</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>2bp deletion</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/pSB1AC0/annotation1878207/range1878207/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/annotation1878207/range1878207"/>
+            <sbol:displayId>range1878207</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0/1"/>
+            <sbol:start>26</sbol:start>
+            <sbol:end>27</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001059"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/mutation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/pSB1AC0_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/pSB1AC0_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/pSB1AC0_sequence"/>
+    <sbol:displayId>pSB1AC0_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:pSB1AC0"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/pSB1AC0_sequence/1"/>
+    <sbol:elements>gcggccgctgcagtccggcaaaaaaacgggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

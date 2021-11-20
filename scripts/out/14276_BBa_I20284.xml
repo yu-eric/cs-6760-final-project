@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I20284/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I20284_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_I20284/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I20284"/>
+    <sbol:displayId>BBa_I20284</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I20284"/>
+    <dcterms:title>Bxb1</dcterms:title>
+    <dcterms:description>Bacteriophage Bxb1 Integrase-Freiburg standard</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Bxb1 integrase is a recombinase enzyme from the serine recombinase family. Bxb1 naturally catalyze integration of the phage genome into the GroEL1 gene of M.segmentis, which contains the attB site [2]. Minimal attB, attP,[2],[3] attL and attR [4] have been characterized. Excisionase has been identified, is relatively big (28kDa) for a RDF, and is efficient both in vivo and in vitro [4]. In vitro recombination is very efficient ranging a 100% efficiency in 1hour for integration [2] and for excision [4]. Interestingly the excisionase subunit does not bind DNA and acts stoechiometrically on Bxb1 integrase [4]. The enzyme does not require supercoiled DNA, and can also works with linear products [2]. The enzyme also works in human, rat, and mouse cells [5, 6].
+When recombination sites are placed in the same DNA molecule, recombination outcome is inversion of the sequence they surround.</sbh:mutableDescription>
+    <dc:creator>Jerome Bonnet</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>11</igem:owning_group_id>
+    <igem:owner_id>3868</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_11_</igem:group_u_list>
+    <sbh:mutableProvenance>Source: http://www.uniprot.org/uniprot/Q9B086
+
+References:
+
+[1] Genome organization and characterization of mycobacteriophage Bxb1., mediavilla et al., Mol microbiol, 2000. PMID 1123671.
+
+[2] Mycobacteriophage Bxb1 integrates into the Mycobacterium smegmatis groEL1 gene. Kim AI, Ghosh P, Aaron MA, Bibb LA, Jain S, Hatfull GF. Mol Microbiol. 2003
+
+[3] The orientation of mycobacteriophage Bxb1 integration is solely dependent on the central dinucleotide of attP and attB. Ghosh P, Kim AI, Hatfull GF. Mol Cell. 2003 PMID:14636570
+
+[4] Control of phage Bxb1 excision by a novel recombination directionality factor., Ghosh P. et al, PLoS Biol., 2006. PMID: 16719562.
+
+[5] Phage Bxb1 integrase mediates highly efficient site-specific recombination in mammalian cells., Russel JP et al., Biotechniques, 2006. PMID:16629393
+
+[6] A diversity of serine phage integrases mediate site-specific recombination in mammalian cells. Keravala A, Groth AC, Jarrahian S, Thyagarajan B, Hoyt JJ, Kirby PJ, Calos MP. Mol Genet Genomics, 2006 PMID: 16699779</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-09T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T04:07:40+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Sequences cleaned up for restriction sites according to Freiburg standard (25)</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I20284/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_I20284_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_I20284_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I20284_sequence"/>
+    <sbol:displayId>BBa_I20284_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I20284"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I20284_sequence/1"/>
+    <sbol:elements>atggccggcagagccctggtagtcatccgcctgtcccgcgtcaccgatgctacgacttcaccggagcgtcagctggagtcttgccagcagctctgcgcccagcgcggctgggacgtcgtcggggtagcggaggatctggacgtctccggggcggtcgatccgttcgaccggaagcgcagaccgaacctggcccggtggctagcgttcgaggagcaaccgtttgacgtgatcgtggcgtaccgggtagatcggttgacccgatcgatccggcatcttcagcagctggtccactgggccgaggaccacaagaagctggtcgtctccgcgaccgaagcgcacttcgatacgacgacgccgtttgcggcggtcgtcatcgcgcttatgggaacggtggcgcagatggaattagaagcgatcaaagagcggaaccgttcggctgcgcatttcaatatccgcgccgggaaataccgaggatccctgccgccgtggggatacctgcctacgcgcgtggacggggagtggcggctggtgccggaccctgtgcagcgagagcgcatcctcgaggtgtatcaccgcgtcgtcgacaaccacgagccgctgcatctggtggcccacgacctgaaccggcgtggtgtcctgtcgccgaaggactacttcgcgcagctgcaaggccgcgagccgcagggccgggagtggtcggctaccgcgctgaagcgatcgatgatctccgaggcgatgctcgggtacgcgactctgaacggtaagaccgtccgagacgacgacggagccccgctggtgcgggctgagccgatcctgacccgtgagcagctggaggcgctgcgcgccgagctcgtgaagacctcccgggcgaagcccgcggtgtctaccccgtcgctgctgctgcgggtgttgttctgcgcggtgtgcggggagcccgcgtacaagttcgccgggggaggacgtaagcacccgcgctaccgctgccgctcgatggggttcccgaagcactgcgggaacggcacggtggcgatggccgagtgggacgcgttctgcgaggagcaggtactggatctgctcggggacgcggagcgtctggagaaagtctgggtagcgggctcggactccgcggtcgaactcgcggaggtgaacgcggagctggtggacctgacgtcgctgatcggctccccggcctaccgggcgggctctccgcagcgagaagcactggatgcccgtattgcggcgctggccgcgcggcaagaggagctggagggcctggaggctcgcccgtctggctgggagtggcgcgagaccgggcagcggttcggggactggtggcgggagcaggacaccgcggcaaagaacacctggcttcggtcgatgaacgttcggctgacgttcgacgtccgcggcgggctgactcgcacgatcgacttcggggatcttcaggagtacgagcagcatctcaggctcggcagcgtggtcgaacggctacacaccgggatgtcgaccggttaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

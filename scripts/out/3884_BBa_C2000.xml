@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/categories/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/categories"/>
+    <sbol:displayId>categories</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry Categories</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/cds/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/cds/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/cds"/>
+    <sbol:displayId>cds</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>//cds</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/cds/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_C2000_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/cds/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_C2000/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000"/>
+    <sbol:displayId>BBa_C2000</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_C2000"/>
+    <dcterms:title>zif23</dcterms:title>
+    <dcterms:description>Repressor, Zif23-GCN4 (RBS-, LVA+)</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Coding region for Zif23-GCN4.  This protein is constructed out of fingers 2 and 3 from Zif268 fused with the leucine zipper domain from GCN4.  The protein binds cooperatively as a dimer to a symmetric target DNA sequence in which each monomer targets 5&apos;-GCGTGG-3&apos;.</sbh:mutableDescription>
+    <dc:creator>Ronny Krashinsky</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>7</igem:owning_group_id>
+    <igem:owner_id>24</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_1_</igem:group_u_list>
+    <sbh:mutableProvenance>Zif268 and GCN4 [Wolfe00]</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-25T12:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T04:07:25+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">As in [Wolfe00], the protein uses residues 364-412 of Zif268:
+&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=BAC30748.1&quot;&gt;BAC30748.1&lt;/a&gt;
+&lt;br&gt;
+The corresponding nucleotide sequence was taken from:
+&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=AK040925.1&quot;&gt;AK040925.1&lt;/a&gt;
+&lt;br&gt;
+&lt;P&gt;As in [Wolfe00], the protein uses residues 250-281 of GCN4: 
+&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=AAA34640.1&quot;&gt;AAA34640.1&lt;/a&gt;
+&lt;br&gt;
+The corresponding nucleotide sequence was taken from:
+&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=171581&quot;&gt;K02205.1&lt;/a&gt;
+&lt;br&gt;</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297319/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297319"/>
+        <sbol:displayId>annotation297319</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Zif268: Finger 2</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297319/range297319/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297319/range297319"/>
+            <sbol:displayId>range297319</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>7</sbol:start>
+            <sbol:end>90</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297320/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297320"/>
+        <sbol:displayId>annotation297320</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Zif268: Finger 3 (partial)</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297320/range297320/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297320/range297320"/>
+            <sbol:displayId>range297320</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>91</sbol:start>
+            <sbol:end>150</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297321/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297321"/>
+        <sbol:displayId>annotation297321</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>linker</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297321/range297321/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297321/range297321"/>
+            <sbol:displayId>range297321</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>151</sbol:start>
+            <sbol:end>165</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297322/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297322"/>
+        <sbol:displayId>annotation297322</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>GCN4: leucine zipper</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297322/range297322/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297322/range297322"/>
+            <sbol:displayId>range297322</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>166</sbol:start>
+            <sbol:end>261</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297323/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297323"/>
+        <sbol:displayId>annotation297323</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Finger2 Recognition</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297323/range297323/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297323/range297323"/>
+            <sbol:displayId>range297323</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>43</sbol:start>
+            <sbol:end>63</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001091"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/binding"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297324/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297324"/>
+        <sbol:displayId>annotation297324</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Finger 3 Recognition</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation297324/range297324/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation297324/range297324"/>
+            <sbol:displayId>range297324</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>127</sbol:start>
+            <sbol:end>147</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001091"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/binding"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation2213994/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation2213994"/>
+        <sbol:displayId>annotation2213994</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Help:Barcodes</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_C2000/annotation2213994/range2213994/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/annotation2213994/range2213994"/>
+            <sbol:displayId>range2213994</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000/1"/>
+            <sbol:start>268</sbol:start>
+            <sbol:end>292</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000807"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/barcode"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_C2000_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_C2000_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_C2000_sequence"/>
+    <sbol:displayId>BBa_C2000_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_C2000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_C2000_sequence/1"/>
+    <sbol:elements>atgaagcccttccagtgtcgaatctgcatgcgtaacttcagtcgtagtgaccaccttaccacccacatccgcacccacacaggcgagaagccttttgcctgtgacatttgtgggaggaagtttgccaggagtgatgaacgcaagaggcatagaaagttgcaacatatgaaacaacttgaagacaaggttgaagaattgctttcgaaaaattatcacttggaaaatgaggttgccagattaaagaaattagttggcgaacgctaataacgctgatagtgctagtgtagatcgc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

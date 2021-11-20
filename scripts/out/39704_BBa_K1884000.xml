@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1884000/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000"/>
+    <sbol:displayId>BBa_K1884000</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1884000"/>
+    <dcterms:title>Paro</dcterms:title>
+    <dcterms:description>Paromomycin</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">CRY2 is a blue-light stimulated photoreceptor that mediates light responses in plants and animals. The photoactivation of cryptochromes involves the blue-light-dependent photoreduction of flavin adenine dinucleotide via the electron transport chain composed of three evolutionarily conserved tryptophan residues known as the &quot;trp triad.&quot;
+When exposed to blue light, CRY2 would interact with CIB1&amp;#65288;cryptochrome-interacting basic-helix-loop-helix 1&amp;#65289;. The CRY2/CIB1 interaction is entirely genetically encoded and does not require addition of any exogenous cofactors. The binding naturally reverses within minutes in the dark, allowing rapid shutoff of transcription by placing samples in the dark.</sbh:mutableDescription>
+    <dc:creator>Chengrong Xie</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Deleted"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>true</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>30234</igem:owner_id>
+    <igem:m_user_id>29275</igem:m_user_id>
+    <igem:group_u_list>_2349_</igem:group_u_list>
+    <sbh:mutableProvenance>(1) Kennedy, M., et al. (2010): Rapid blue-light mediated induction of protein interactions in living cells. Nature America.
+(2) Bugaj, L., et al. (2012): Optogenetic protein clustering and signaling activation in mammalian cells. Nature America.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-06T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T08:31:36+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">To regulate DNA transcription by blue light, the system is based on a two-hybrid interaction in which a light-mediated protein interaction brings together two halves (a binding domain and an activation domain) of a split transcription factor. If we remove the stimulation of blue light, dark reversion of CRY2 will dissociate the interaction with CIB1 and halt Gal4-dependent transcription</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1884000/annotation2489051/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/annotation2489051"/>
+        <sbol:displayId>annotation2489051</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Paro</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1884000/annotation2489051/range2489051/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/annotation2489051/range2489051"/>
+            <sbol:displayId>range2489051</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>819</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/protein"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1884000_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000_sequence"/>
+    <sbol:displayId>BBa_K1884000_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1884000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1884000_sequence/1"/>
+    <sbol:elements>atggacgatgcgttgcgtgcactgcggggtcggtatcccggttgtgagtgggttgttgtggaggatggggcctcgggggctggtgtttatcggcttcggggtggtgggcgggagttgtttgtcaaggtggcagctctgggggccggggtgggcttgttgggtgaggctgagcggctggtgtggttggcggaggtggggattcccgtacctcgtgttgtggagggtggtggggacgagagggtcgcctggttggtcaccgaagcggttccggggcgtccggccagtgcgcggtggccgcgggagcagcggctggacgtggcggtggcgctcgcggggctcgctcgttcgctgcacgcgctggactgggagcggtgtccgttcgatcgcagtctcgcggtgacggtgccgcaggcggcccgtgctgtcgctgaagggagcgtcgacttggaggatctggacgaggagcggaaggggtggtcgggggagcggcttctcgccgagctggagcggactcggcctgcggacgaggatctggcggtttgccacggtgacctgtgcccggacaacgtgctgctcgaccctcgtacctgcgaggtgaccgggctgatcgacgtggggcgggtcggccgtgcggaccggcactccgatctcgcgctggtgctgcgcgagctggcccacgaggaggacccgtggttcgggccggagtgttccgcggcgttcctgcgggagtacgggcgcgggtgggatggggcggtatcggaggaaaagctggcgttttaccggctgttggacgagttcttctgagggacctgatggtgt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

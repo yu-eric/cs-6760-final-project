@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1621000/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000"/>
+    <sbol:displayId>BBa_K1621000</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621000"/>
+    <dcterms:title>BBa_K1621000</dcterms:title>
+    <dcterms:description>Glycoprotein E1 epitopes derived from Rubella Virus</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The Rubella Virus is the only member of the genus of Rubivirus. It contains single-stranded positive-sense RNA that encodes three structural and two non-structural proteins. Two of the structural proteins are the envelope proteins E1 and E2 which form heterodimers that are arranged in groups of three all over the viruses surface. In our project we express the protein E1 that was shown to provoke an immunogenic response and to have ???hemagglutinating and virus-neutralizing activities??? (e.g. Gillam et al.: Cellular and Humoral Immune Responses to Rubella Virus Structural Proteins E1, E2 and C).
+The virus is transmitted via airborne infection with humans as the only known hosts. It causes the rubella disease, also known as German measles or Rubeola. After infection the virus persists in the body for the whole life providing lifelong immunity and can therefore be referred to as a typical children???s disease. The incubation time amounts to 14 to 21 days and goes along with exanthemas, fever, headache, rheumatic pains and swollen lymph nodes. The patient is contagious from one week before the first exanthema until one week after the last one. The infection can also be asymptomatic for some patients as opposed to possible complications in rare incidents. Arthritis, bronchitis, encephalitis and inclusion of heart damages are conceivable in such cases. As the virus can also cross the placenta, pregnant women getting infected in the beginning of their pregnancy might lose their child due to a spontaneous abort. The children can also still be born but might then suffer from deformities of the heart, cataracts or labyrinthine deafness.
+Therapies are only symptomatic but there is a vaccination available that could prevent the disease.</sbh:mutableDescription>
+    <dc:creator>Ramona Emig, Rabea Jesser, Julika Neumann, Lara Stuehn</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>25598</igem:owner_id>
+    <igem:m_user_id>25598</igem:m_user_id>
+    <igem:group_u_list>_2038_</igem:group_u_list>
+    <sbh:mutableProvenance>The sequence was obtained from Best et al. (1995) and synthesized by Integrated DNA Technologies.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-30T09:01:17+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was codon optimized for expression in E. coli with the IDT codon optimization tool.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621000/annotation2439216/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/annotation2439216"/>
+        <sbol:displayId>annotation2439216</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Glycoprotein E</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621000/annotation2439216/range2439216/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/annotation2439216/range2439216"/>
+            <sbol:displayId>range2439216</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000/1"/>
+            <sbol:start>4</sbol:start>
+            <sbol:end>228</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1621000_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000_sequence"/>
+    <sbol:displayId>BBa_K1621000_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621000_sequence/1"/>
+    <sbol:elements>atgggaaaccaacagagtcgctggggattgggctccccgaattgccacgggccggattgggcatcacccgtttgtcaacgtcacagtccagattgctcacgcctggtcggcgccaccccggagcgcccccgcctgcgcctggtcgacgcggatgatcctctgctgcgtacggcgccgggtccaggcgaagtgtgggtgacgccggtgatcggctcgcaggcgcgtaag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I756028/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_I756028_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_I756028/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I756028"/>
+    <sbol:displayId>BBa_I756028</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I756028"/>
+    <dcterms:title>BBa_I756028</dcterms:title>
+    <dcterms:description>cmv - IgM signal- VH-VL-EporD2-EporTm mut- gp130i- dnaEC-VP16-SV40PA</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">SCFV-erythropoietinR-GP130 chimeric receptor
+
+When the SCFV is activated by contact with exposed MHC on cardiomyocytes that have been damaged in  an infarction, the receptors will dimerise via interactions of the EporD2 domains. EporTransmembrane mutant version was used, L241G and L242P, to introduce a kink into the leucine zipper and to decrease the interchain interaction of  EpoR  for a tight on/off regulation of the receptor. Leucine zipper formation induces alpha helical structures that induce self-assembly  by close packing of TM structures. Oligermerisation of wild-type EporTM is considerably high, producing a high basal rate of signaling which was not desired.  
+
+Upon dimerisation of the receptors, the intracellular portion of the chimeric receptor, GP130i (intracellular)will activate downstream signaling. JAK, a tryosine kinase, phosphorylates the gp130i which then Shp2 (a Src homology 2-containing tyrosine phosphatase) binds to. In our novel signaling system we have designed a version of Shp2 fused to dnaEN-mLexA. DnaEN and dnaEC are part of the split intein system which are designed to reconsitute mLexA-VP16 in vivo. MLexA-VP16 translocates to nucleus where is functions as the switch to upregulate expression of the rescue circuit, death circuit and cell adhesion circuit via the binding to the lexA operator minimal promoter.</sbh:mutableDescription>
+    <dc:creator>Jennifer Lei</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>1828</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_108_</igem:group_u_list>
+    <sbh:mutableProvenance>EcoR1,Xba1,SacII (1-18bp)
+cmv from pcDNA3.1 zeo(+)(19-550bp)
+bstB1 (551-556bp)
+kozak (557-562bp)
+IgM signal sequence from IgM of mouse (made synthetically from oligos) (563-619bp)
+
+Variable heavy chain of human IgM monoclonal AB (EMBL: AJ224899) and Variable light (EMBL: AJ224900) sequence from Laroche, FEBS Letter, 1999;460, 86-92 (made synthetically from oligos)
+(620-1384bp)
+
+EporD2 sequence from Kawahara, M et al. Protein Engineering Design and Selection. v.17, pp.715-719, 2004 ( isoalted from human NT2 cDNA) (1385-1708bp)
+
+EporTM mut sequence from Kawahara,M et al. Protein Engineering Design and Selection. v.17, pp.715-719, 2004 ( made synthetically from oligos) (1709-1768bp)
+
+GP130i sequence from Kawahara, M et al. Protein Engineering Design and Selection. v.17, pp.715-719, 2004 (isolated from human NT2 cDNA)(1769-2599bp)
+
+Linker (2600-2623bp)
+
+dnaEC from dnaE gene of Synechocystis sp.(split inteins)(2624-2749bp)
+
+VP16 from HSV1 helper virus (Sapolsky Lab, Stanford)(2750-2887bp)
+Stop Stop (2888-2893bp)
+SV40 polyA from pcDNA3.1 zeo(+)(2894-3024bp)
+
+Asc1,Spe1 (3025-3038bp)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-24T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T04:08:07+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">EporD2 has &gt;70% content and is extremely difficult to clone.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I756028/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Signalling"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_I756028_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_I756028_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_I756028_sequence"/>
+    <sbol:displayId>BBa_I756028_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_I756028"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_I756028_sequence/1"/>
+    <sbol:elements>gaattctctagaccgcggccgcgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaataatgacgtatgttcccatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattatgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtgatgcggttttggcagtacaccaatgggcgtggatagcggtttgactcacggggatttccaagtctccaccccattgacgtcaatgggagtttgttttggcaccaaaatcaacgggactttccaaaatgtcgtaacaactccgccccattgacgcaaatgggcggtaggcgtgtacggtgggaggtctatataagcagagctcgtttagtgaaccgtcagatcttcgaagccaccatgaaattcagctgggtcatgttcttcctgatggcagtggttacaggggtcaattcagaggtgcagctggtggagtctgggggaggcttggtccagcctggggggtccctgagactctcctgttcagcctctggattcaccttcagtagctatgctatgcactgggtccgccaggctccagggaagggactggaatatgtttcagctattagtagtaatgggggtagcacatactacgcagactccgtgaagggcagattcaccatctccagagacaattccaagaacacgctgtatcttcaaatgagcagtctgagagctgaggacacggctgtgtattactgtgtgaaaatcactggggcgtatagcagcagctggtactacgacaactggttcgacccctggggccagggaaccctggtcaccgtctcctcatcaggaggtggcggctcaggtggtggcggctccggtggaggcggctcttcctatgagctgactcagccaccctcagtgtccgtgtccccaggacagacagccagcatcacctgctctggagataaattgggggataaatatgcttgctggtatcagcagaagccaggccagtcccctgtgctggtcatctatcaagatagcaagcggccctcagggatccctgagcgattctctggctccaactctgggaacacagccactctgaccatcagcgggacccaggctatggatgaggctgactattactgtcaggcgtgggacagcagcactgcggtattcggcggagggaccaagctgaccgtcctaggtcagggtaccggatcaggtgtgctcctagacgcccccgtggggctggtggcgcggttggctgacgagagcggccacgtagtgttgcgctggctcccgccgcctgagacacccatgacgtctcacatccgctacgaggtggacgtctcggccggcaacggcgcagggagcgtacagagggtggagatcctggagggccgcaccgagtgtgtgctgagcaacctgcggggccggacgcgctacaccttcgccgtccgcgcgcgtatggctgagccgagcttcggcggcttctggagcgcctggtcggagcctgtgtcgctgctgacgcctagcgacctggaccccctcatcctgacgctctccctcgtggtcatcctggtggggccgaccgtgctcgcgctgctcaataagcgagacctaattaaaaaacacatctggcctaatgttccagatccttcaaagagtcatattgcccagtggtcacctcacactcctccaaggcacaattttaattcaaaagatcaaatgtattcagatggcaatttcactgatgtaagtgttgtggaaatagaagcaaatgacaaaaagccttttccagaagatctgaaatcattggacctgttcaaaaaggaaaaaattaatactgaaggacacagcagtggtattggggggtcttcatgcatgtcatcttctaggccaagcatttctagcagtgatgaaaatgaatcttcacaaaacacttcgagcactgtccagtattctaccgtggtacacagtggctacagacaccaagttccgtcagtccaagtcttctcaagatccgagtctacccagcccttgttagattcagaggagcggccagaagatctacaattagtagatcatgtagatggcggtgatggtattttgcccaggcaacagtacttcaaacagaactgcagtcagcatgaatccagtccagatatttcacattttgaaaggtcaaagcaagtttcatcagtcaatgaggaagattttgttagacttaaacagcagatttcagatcatatttcacaatcctgtggatctgggcaaatgaaaatgtttcaggaagtttctgcagcagatgcttttggtccaggtactgagggacaagtagaaagatttgaaacagttggcatggaggctgcgactgatgaaggcatgcctaaaagttacttaccacagactgtacggcaaggcggctacatgcctcaggtcgactcggccggcctaggcgccatggttaaagttatcggtcgtcgttccctcggagtgcaaagaatatttgatattggtcttccccaagaccataattttctgctagccaatggggcgatcgccgccaattgtttcaacaagtcacactcgacggcccccccgaccgatgtcagcctgggggacgagctccacttagacggcgaggacgtggcgatggcgcatgccgacgcgctagacgatttcgatctggacatgttgggggacggggattccccgggtccgggatagtgaaacttgtttattgcagcttataatggttacaaataaagcaatagcatcacaaatttcacaaataaagcatttttttcactgcattctagttgtggtttgtccaaactcatcaatgtatcttatcatgtctgggcgcgccactagt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

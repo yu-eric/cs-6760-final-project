@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K590087/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K590087_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1606001/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001"/>
+    <sbol:displayId>BBa_K1606001</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1606001"/>
+    <dcterms:title>BBa_K1606001</dcterms:title>
+    <dcterms:description>Kumamolisin in alpha secretion factor</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Taking kumamolisin and putting it in a vector of yeast that has alpha secretion factor then putting the plasmid in yeast. The yeast will produce and secrete kumamolisin enzyme to its external environment and will destroys gluten while the bread continues to be fermented.</sbh:mutableDescription>
+    <dc:creator>Ilkem Kumru</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>16929</igem:owner_id>
+    <igem:m_user_id>16929</igem:m_user_id>
+    <igem:group_u_list>_2023_</igem:group_u_list>
+    <sbh:mutableProvenance>Original protein comes form Alicyclobacillus sendaiensis. (Genetically engineered.)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-28T07:56:00+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Issues"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">&quot;Point mutations at residues 291, 319, 358, and 368 from Asparagine to Aspartate, Glycine to Serine, Aspartate to Glycine, and Aspartate to Histidine, respectively.&quot; and adding it into alpha secretion factor.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Composite"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1606001/component2439367/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/component2439367"/>
+        <sbol:displayId>component2439367</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K590087</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K590087/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1606001/annotation2439367/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/annotation2439367"/>
+        <sbol:displayId>annotation2439367</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K590087</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1606001/annotation2439367/range2439367/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/annotation2439367/range2439367"/>
+            <sbol:displayId>range2439367</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1701</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001/component2439367/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K590087/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K590087"/>
+    <sbol:displayId>BBa_K590087</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K590087"/>
+    <dcterms:title>KumaMax</dcterms:title>
+    <dcterms:description>KumaMax: Kumamolisin-As_N291D, G319S, D358G, D368H</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">A mutated Kumamolisin-As enzyme aimed to combat gluten intolerance by increased activity with the PQLP peptide, an antigenic epitope in gliadin. This mutant is the best combinatorial mutant found and has point mutations at residues 291, 319, 358, and 368 from Asparagine to Aspartate, Glycine to Serine, Aspartate to Glycine, and Aspartate to Histidine, respectively.</sbh:mutableDescription>
+    <dc:creator>Sydney Gordon, Daniel Hadidi, Elizabeth Stanley, Sarah Wolf, Angus Toland, Sean Wu</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:sampleStatus>It&apos;s complicated</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>true</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>5005</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_761_</igem:group_u_list>
+    <sbh:mutableProvenance>Engineered but the original protein is form Alicyclobacillus sendaiensis</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-21T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:12:48+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Aimed to increase binding affinity to the immunogenic PQLP peptide found in gluten</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K590087/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K590087_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1606001_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001_sequence"/>
+    <sbol:displayId>BBa_K1606001_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1606001"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1606001_sequence/1"/>
+    <sbol:elements>atgagtgatatggaaaaaccgtggaaagaaggtgaagaagcccgcgcagtgctgcaaggtcatgctcgtgcgcaggcaccgcaagcagtcgataaaggcccggtggcaggtgacgaacgcatggctgttaccgtggttctgcgtcgccagcgtgcaggtgaactggcggcccacgtggaacgtcaagcagctattgctccgcatgcgcgcgaacacctgaaacgtgaagcgtttgcggccagtcatggtgcgtccctggatgactttgccgaactgcgtcgcttcgcagatgctcacggcctggcgctggaccgtgcaaacgttgcagctggcaccgccgttctgtctggtccggtcgatgcaatcaatcgcgcttttggtgtggaactgcgtcatttcgatcacccggacggctcatatcgttcgtacctgggtgaagtcaccgtgccggccagtattgcaccgatgatcgaagcggttctgggcctggatacgcgtccggtcgcccgcccgcattttcgtatgcagcgtcgcgcagaaggcggtttcgaagctcgttcccaagcggcggcaccgaccgcatatacgccgctggatgttgcgcaggcctaccaatttccggaaggtctggacggccagggtcaatgcattgccattatcgaactgggcggtggctatgatgaagcttcactggcgcagtacttcgcgtcgctgggcgtgccggcaccgcaagtcgtgagtgtttccgtcgatggtgcgagcaaccagccgaccggtgatccgtctggtccggacggtgaagtggaactggatatcgaagttgcaggcgctctggcgccgggtgccaaatttgcagtgtatttcgcgccggataccgatgccggttttctggacgcgattaccacggccatccacgatccgacgctgaaaccgagcgttgtctcaatttcgtggagcggcccggaagacagctggacctctgctgcgatcgccgcaatgaaccgtgcgtttctggatgctgcggccctgggtgtgaccgttctggcagctgcgggcgacagcggttctacgggtggcgaacaggacggtctgtatcatgtgcatttcccggccgcatcaccgtacgttctggcgtgcggtggcacgcgcctggtcgcatcgggtggccgtattgcgcaggaaaccgtctggaacgatggtccggacggtggtgcaacgggtggcggtgtgagccgcatcttcccgctgccggcatggcaggaacacgctaacgttccgccgtctgcaaatccgggcgcgagcagcggccgtggtgtcccggatctggctggtaatgcggacccggcaaccggttatgaagtggttattgatggcgaagcaaccgtcatcggcggtacgagcgccgtggcaccgctgtttgctgcgctggttgcgcgtattaaccagaaactgggcaaagcagttggttatctgaatccgaccctgtaccaactgccggcagatgttttccatgacatcacggagggtaacaatgatattgcaaaccgtgcgcagatttatcaagcaggtccgggctgggacccgtgtaccggtctgggttcaccgattggtgtgcgtctgctgcaagcactgctgccgagtgcctcccagccgcaaccgggtagtacggaaaatctgtactttcagtccggcgcgctcgag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K590087_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K590087_sequence"/>
+    <sbol:displayId>BBa_K590087_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K590087"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K590087_sequence/1"/>
+    <sbol:elements>atgagtgatatggaaaaaccgtggaaagaaggtgaagaagcccgcgcagtgctgcaaggtcatgctcgtgcgcaggcaccgcaagcagtcgataaaggcccggtggcaggtgacgaacgcatggctgttaccgtggttctgcgtcgccagcgtgcaggtgaactggcggcccacgtggaacgtcaagcagctattgctccgcatgcgcgcgaacacctgaaacgtgaagcgtttgcggccagtcatggtgcgtccctggatgactttgccgaactgcgtcgcttcgcagatgctcacggcctggcgctggaccgtgcaaacgttgcagctggcaccgccgttctgtctggtccggtcgatgcaatcaatcgcgcttttggtgtggaactgcgtcatttcgatcacccggacggctcatatcgttcgtacctgggtgaagtcaccgtgccggccagtattgcaccgatgatcgaagcggttctgggcctggatacgcgtccggtcgcccgcccgcattttcgtatgcagcgtcgcgcagaaggcggtttcgaagctcgttcccaagcggcggcaccgaccgcatatacgccgctggatgttgcgcaggcctaccaatttccggaaggtctggacggccagggtcaatgcattgccattatcgaactgggcggtggctatgatgaagcttcactggcgcagtacttcgcgtcgctgggcgtgccggcaccgcaagtcgtgagtgtttccgtcgatggtgcgagcaaccagccgaccggtgatccgtctggtccggacggtgaagtggaactggatatcgaagttgcaggcgctctggcgccgggtgccaaatttgcagtgtatttcgcgccggataccgatgccggttttctggacgcgattaccacggccatccacgatccgacgctgaaaccgagcgttgtctcaatttcgtggagcggcccggaagacagctggacctctgctgcgatcgccgcaatgaaccgtgcgtttctggatgctgcggccctgggtgtgaccgttctggcagctgcgggcgacagcggttctacgggtggcgaacaggacggtctgtatcatgtgcatttcccggccgcatcaccgtacgttctggcgtgcggtggcacgcgcctggtcgcatcgggtggccgtattgcgcaggaaaccgtctggaacgatggtccggacggtggtgcaacgggtggcggtgtgagccgcatcttcccgctgccggcatggcaggaacacgctaacgttccgccgtctgcaaatccgggcgcgagcagcggccgtggtgtcccggatctggctggtaatgcggacccggcaaccggttatgaagtggttattgatggcgaagcaaccgtcatcggcggtacgagcgccgtggcaccgctgtttgctgcgctggttgcgcgtattaaccagaaactgggcaaagcagttggttatctgaatccgaccctgtaccaactgccggcagatgttttccatgacatcacggagggtaacaatgatattgcaaaccgtgcgcagatttatcaagcaggtccgggctgggacccgtgtaccggtctgggttcaccgattggtgtgcgtctgctgcaagcactgctgccgagtgcctcccagccgcaaccgggtagtacggaaaatctgtactttcagtccggcgcgctcgag</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

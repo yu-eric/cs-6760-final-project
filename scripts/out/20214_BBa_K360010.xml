@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K360010/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K360010_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K360010/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K360010"/>
+    <sbol:displayId>BBa_K360010</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K360010"/>
+    <dcterms:title>BBa_K360010</dcterms:title>
+    <dcterms:description>luxY codes YFP, a light wavelength shifting protein</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Vibrio fischeri is a symbiotic marine bacterium which shows luminescence under certain conditions.&lt;br\&gt; 
+The light emission reaction is catalyzed by a bacterial luciferase coded in the luxA and luxB genes, 
+both placed within lux operon, this operon also contains genes for the synthesis of the substrates required in this reaction (luxC, luxD, luxE).&lt;br\&gt;  
+This is the reaction catalyzed by Vibrio fischeri luciferase (luxAB genes).&lt;br\&gt; 
+&lt;br\&gt;
+FMNH2 + 02 + RCHO -&gt; hv + FMN + H20 + RCOOH(1)&lt;br\&gt;
+&lt;br\&gt;
+luxY gene codes YFP, a protein that changes the normal light emission wavelength of Vibrio fischeri from 484nm (blue) to 534nm (yellow).&lt;br\&gt;
+luxY gene was isolated from Vibrio fischeri strain Y-1 (2).&lt;br\&gt;
+The yellow emission has been postulated previously to result from energy transfer from an electronically excited species formed in the bacterial luciferase-catalyzed reaction to a secondary emitter protein (1) called YFP.&lt;br\&gt;
+&lt;br\&gt;
+YFP works together with V. fischeri luxAB products so it must be placed into the same strain (eg. It can either be cotransformated with a plasmid carrying Vibrio fischeri luxAB system or ligated into the same plasmid) (1).&lt;br\&gt;  
+Because YFP is a Vibrio fischeri protein, it only works with Vibrio fischeri luciferases although it might work with luciferases from other bacteria species.&lt;br\&gt;
+It should be kept in mind that YFP only changes the light emission wavelength of luciferases, it does not produce light by itself.&lt;br\&gt;
+&lt;br\&gt;
+Something else to consider is that YFP only works below 18??C, higher temperatures may interfere with the native conformation of the protein(1) disrupting the light shifting function and the only phenotype observed would be that produced by luxAB light emission.&lt;br\&gt;</sbh:mutableDescription>
+    <dc:creator>Nelson Augusto Berrocal Quezada</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>7481</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_485_</igem:group_u_list>
+    <sbh:mutableProvenance>Biochemistry 1990, 29, 5509-55 15  5509&lt;br\&gt; 
+Cloning and Expression of  the luxY Gene from Vibrio fischeri  Strain Y-1 in 
+Escherichia coli and Complete Amino Acid Sequence of  the Yellow Fluorescent 
+Protein&lt;br\&gt;
+Thomas 0. Baldwin, Mary L. Treat, and S. Colette Daubner&lt;br\&gt; 
+Department of Biochemistry and Biophysics, Texas A&amp;M University, and Texas Agricultural Experiment Station, 
+College Station, Texas 77843&lt;br\&gt; 
+Received December 5, 1989; Revised Manuscript Received February 13, 1990&lt;br\&gt;
+Page. 5512</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-20T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:12:12+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was synthesized.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K360010/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K360010_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K360010_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K360010_sequence"/>
+    <sbol:displayId>BBa_K360010_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K360010"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K360010_sequence/1"/>
+    <sbol:elements>atgtttaaaggtatagtagaaggtataggaatcattgaaaaaattgatatatatactgacctagataagtatgcaattcgatttcctgaaaatatgttgaatggaattaaaaaggagtcgtcaataatgtttaacggatgcttcttaacggtaactagcgtaaattcaaacattgtctggtttgatatatttgaaaaagaagcacgtaagcttgatacttttcgggaatataaggtaggtgaccgagtaaatttaggaacattcccaaaatttggcgctgcatctggtgggcatatattatcagcaaggatttcatgtgtagcaagtattattgaaataatagaaaatgaggattatcaacaaatgtggattcaaattcctgaaaattttacagagtttcttattgataaagactatattgctgtggatggtattagcttaactattgacactataaaaaacaaccaatttttcattagtttacccttaaaaatagcacaaaatacaaatatgaaatggcgaaaaaaaggtgataaggtaaatgttgagttatcaaacaaaattaatgctaaccagtgttggtaataa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

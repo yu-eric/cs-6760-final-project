@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1621002/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002"/>
+    <sbol:displayId>BBa_K1621002</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621002"/>
+    <dcterms:title>BBa_K1621002</dcterms:title>
+    <dcterms:description>Glycoprotein G1 (Herpes simplex type1)</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">A lot of people might have already had little blisters in the area of the lip that disappeared after some days. In most cases those might have been provoked by the Herpes Simplex Virus Type 1 (HSV1).
+HSV1 belongs to the Human Herpesviruses and is therefore part of the family of Herpesviridae. It consists of double-stranded DNA and an envelope containing at least 10 viral proteins surrounds the capsid. Most of these proteins are glycoproteins, one of which is the glycoprotein G that we express. It is the glycoprotein differing the most among the different species so it allows their discrimination. Glycoprotein G is important for the attachment to the cell and the entry into it.
+There are two different types of Herpes Simplex Virus with about 99% of identity in the gene regions. Both types are transmitted via the contact of mucous membranes. Type 1 ??? the one we are working with ??? can be transmitted via kissing, type 2 is mainly transmitted via sexual contact. Below we are only referring to the Herpes Simplex Virus Type 1. It remains in the body in a latent state and several outbreaks during life are possible. As about 85-90% of the world???s population is seropositive the primary infection often takes place prior to the age of five due to a transmission from the parents to their child. The infection of newborns is dangerous to life.
+After infection the virus proliferates and is shed via the mucous membrane. It also infiltrates neurons in which it persists life-long. In very severe cases the virus can cause encephalitis as well all meningitis. The reasons for sudden outbreaks of the virus are not clearly understood. A suppression of the immune system or stress are only some possible explanations.
+A therapy with anti-viral drugs is possible, for cutaneous infections in facial or rather labial areas the application of corticoids is however usually sufficient.</sbh:mutableDescription>
+    <dc:creator>Lara Stuehn, Ramona Emig, Julika Neumann, Rabea Jesser</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>25600</igem:owner_id>
+    <igem:m_user_id>25600</igem:m_user_id>
+    <igem:group_u_list>_2038_</igem:group_u_list>
+    <sbh:mutableProvenance>The sequence was obtained from J????skel??inen et. al (2009) and synthesized from Integrated DNA Technologies</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-28T06:59:35+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was codon optimized for expression in E.coli with codon optimization tool from IDT</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1621002/annotation2439295/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/annotation2439295"/>
+        <sbol:displayId>annotation2439295</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Glycoprotein G (epitopes)</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1621002/annotation2439295/range2439295/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/annotation2439295/range2439295"/>
+            <sbol:displayId>range2439295</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002/1"/>
+            <sbol:start>4</sbol:start>
+            <sbol:end>393</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1621002_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002_sequence"/>
+    <sbol:displayId>BBa_K1621002_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1621002"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1621002_sequence/1"/>
+    <sbol:elements>atgaccactggtcggccttctcatgaagcaccgaatatgacccaaactggcaccacagacagcccgaccgcaattagcttgaccacacccgaccacacgccaccgatgccgagcattggtttaatggaggaagaagaggaagaggaaggcgctggcgatggtgaacatctggaagggggagacggtacacgcgacaccctgccgcagagcccgggccctgcgtttccgctggccgaagacgtagagaaagataaacctaaccgcccggttgttccgtctcccgatcctaataattcccctgctcgtccagaaacctcgcgccccaagaccccgccaacaattatcggtccgctggccacgcgtccaaccacccgtttaacaagcaaaggtcgccca</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

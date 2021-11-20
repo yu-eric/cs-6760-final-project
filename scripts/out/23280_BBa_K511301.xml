@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K511301_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K511301/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301"/>
+    <sbol:displayId>BBa_K511301</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K511301"/>
+    <dcterms:title>BBa_K511301</dcterms:title>
+    <dcterms:description>Notch-Gal4-VP16 Juxtacrine Signaling Receptor MammoBlock</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This part encodes a major mammalian cell-signaling protein, the Notch-1 receptor, engineered to replace the original 12xCSL-binding transactvation domain with the Gal4-VP16 transactivator (Gal4-ESN). In the presence of the Delta ligand protein from another cell, this transactivation domain is cleaved and released to the Notch producing cell&apos;s nucleus. In contrast, if Delta is present on the Notch producing cell, the Delta protein will cis-inhibit the Notch receptor, desensitizing the receptor to activation from external Delta molecules. This receptor is singularly useful for cell patterning, lineage decision-making, and other forms of signaling-intensive processes.
+
+This version of the Notch signaling protein is expected to induce much stronger levels of activation than those seen in the figures below or those documented in recent works by Spriznak, et al.</sbh:mutableDescription>
+    <dc:creator>Grant Robinson</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:sampleStatus>It&apos;s complicated</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>6719</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_674_</igem:group_u_list>
+    <sbh:mutableProvenance>This part is derived from the human Notch-1 receptor, the DNA-binding domain of the Gal4 transactivation protein from Saccharomyces cerevisiae, and the viral VP16 transactivation domain from the herpes simplex virus.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-26T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-08T01:12:31+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Not applicable.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Signalling"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144584/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144584"/>
+        <sbol:displayId>annotation2144584</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Notch-1 Extracellular Domain</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144584/range2144584/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144584/range2144584"/>
+            <sbol:displayId>range2144584</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>5223</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/protein"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144586/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144586"/>
+        <sbol:displayId>annotation2144586</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Transmembrane Linker</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144586/range2144586/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144586/range2144586"/>
+            <sbol:displayId>range2144586</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+            <sbol:start>5224</sbol:start>
+            <sbol:end>5289</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000324"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/tag"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144587/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144587"/>
+        <sbol:displayId>annotation2144587</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Gal4-VP16 Transactivation Domain</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K511301/annotation2144587/range2144587/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/annotation2144587/range2144587"/>
+            <sbol:displayId>range2144587</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301/1"/>
+            <sbol:start>5290</sbol:start>
+            <sbol:end>5970</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/protein"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K511301_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K511301_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K511301_sequence"/>
+    <sbol:displayId>BBa_K511301_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K511301"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K511301_sequence/1"/>
+    <sbol:elements>atgccgccgctcctggcgcccctgctctgcctggcgctgctgcccgcgctcgccgcacgaggcccgcgatgctcccagcccggtgagacctgcctgaatggcgggaagtgtgaagcggccaatggcacggaggcctgcgtctgtggcggggccttcgtgggcccgcgatgccaggaccccaacccgtgcctcagcaccccctgcaagaacgccgggacatgccacgtggtggaccgcagaggcgtggcagactatgcctgcagctgtgccctgggcttctctgggcccctctgcctgacacccctggacaatgcctgcctcaccaacccctgccgcaacgggggcacctgcgacctgctcacgctgacggagtacaagtgccgctgcccgcccggctggtcagggaaatcgtgccagcaggctgacccgtgcgcctccaacccctgcgccaacggtggccagtgcctgcccttcgaggcctcctacatctgccactgcccacccagcttccatggccccacctgccggcaggatgtcaacgagtgtggccagaagcccgggctttgccgccacggaggcacctgccacaacgaggtcggctcctaccgctgcgtctgccgcgccacccacactggccccaactgcgagcggccctacgtgccctgcagcccctcgccctgccagaacgggggcacctgccgccccacgggcgacgtcacccacgagtgtgcctgcctgccaggcttcaccggccagaactgtgaggaaaatatcgacgattgtccaggaaacaactgcaagaacgggggtgcctgtgtggacggcgtgaacacctacaactgccgctgcccgccagagtggacaggtcagtactgtaccgaggatgtggacgagtgccagctgatgccaaatgcctgccagaacggcgggacctgccacaacacccacggtggctacaactgcgtgtgtgtcaacggctggactggtgaggactgcagcgagaacattgatgactgtgccagcgccgcctgcttccacggcgccacctgccatgaccgtgtggcctccttctactgcgagtgtccccatggccgcacaggtctgctgtgccacctcaacgacgcatgcatcagcaacccctgtaacgagggctccaactgcgacaccaaccctgtcaatggcaaggccatctgcacctgcccctcggggtacacgggcccggcctgcagccaggacgtggatgagtgctcgctgggtgccaacccctgcgagcatgcgggcaagtgcatcaacacgctgggctccttcgagtgccagtgtctgcagggctacacgggcccccgatgcgagatcgacgtcaacgagtgcgtctcgaacccgtgccagaacgacgccacctgcctggaccagattggggagttccagtgcatctgcatgcccggctacgagggtgtgcactgcgaggtcaacacagacgagtgtgccagcagcccctgcctgcacaatggccgctgcctggacaagatcaatgagttccagtgcgagtgccccacgggcttcactgggcatctgtgccagtacgatgtggacgagtgtgccagcaccccctgcaagaatggtgccaagtgcctggacggacccaacacttacacctgtgtgtgcacggaagggtacacggggacgcactgcgaggtggacatcgatgagtgcgaccccgacccctgccactacggctcctgcaaggacggcgtcgccaccttcacctgcctctgccgcccaggctacacgggccaccactgcgagaccaacatcaacgagtgctccagccagccctgccgccacgggggcacctgccaggaccgcgacaacgcctacctctgcttctgcctgaaggggaccacaggacccaactgcgagatcaacctggatgactgtgccagcagcccctgcgactcgggcacctgtctggacaagatcgatggctacgagtgtgcctgtgagccgggctacacagggagcatgtgtaacatcaacatcgatgagtgtgcgggcaacccctgccacaacgggggcacctgcgaggacggcatcaatggcttcacctgccgctgccccgagggctaccacgaccccacctgcctgtctgaggtcaatgagtgcaacagcaacccctgcgtccacggggcctgccgggacagcctcaacgggtacaagtgcgactgtgaccctgggtggagtgggaccaactgtgacatcaacaacaatgagtgtgaatccaacccttgtgtcaacggcggcacctgcaaagacatgaccagtggctacgtgtgcacctgccgggagggcttcagcggtcccaactgccagaccaacatcaacgagtgtgcgtccaacccatgtctgaaccagggcacgtgtattgacgacgttgccgggtacaagtgcaactgcctgctgccctacacaggtgccacgtgtgaggtggtgctggccccgtgtgcccccagcccctgcagaaacggcggggagtgcaggcaatccgaggactatgagagcttctcctgtgtctgccccacgggctggcaagcagggcagacctgtgaggtcgacatcaacgagtgcgttctgagcccgtgccggcacggcgcatcctgccagaacacccacggcggctaccgctgccactgccaggccggctacagtgggcgcaactgcgagaccgacatcgacgactgccggcccaacccgtgtcacaacgggggctcctgcacagacggcatcaacacggccttctgcgactgcctgcccggcttccggggcactttctgtgaggaggacatcaacgagtgtgccagtgacccctgccgcaacggggccaactgcacggactgcgtggacagctacacgtgcacctgccccgcaggcttcagcgggatccactgtgagaacaacacgcctgactgcacagagagctcctgcttcaacggtggcacctgcgtggacggcatcaactcgttcacctgcctgtgtccacccggcttcacgggcagctactgccagcacgatgtcaatgagtgcgactcacagccctgcctgcatggcggcacctgtcaggacggctgcggctcctacaggtgcacctgcccccagggctacactggccccaactgccagaaccttgtgcactggtgtgactcctcgccctgcaagaacggcggcaaatgctggcagacccacacccagtaccgctgcgagtgccccagcggctggaccggcctttactgcgacgtgcccagcgtgtcctgtgaggtggctgcgcagcgacaaggtgttgacgttgcccgcctgtgccagcatggagggctctgtgtggacgcgggcaacacgcaccactgccgctgccaggcgggctacacaggcagctactgtgaggacctggtggacgagtgctcacccagcccctgccagaacggggccacctgcacggactacctgggcggctactcctgcaagtgcgtggccggctaccacggggtgaactgctctgaggagatcgacgagtgcctctcccacccctgccagaacgggggcacctgcctcgacctccccaacacctacaagtgctcctgcccacggggcactcagggtgtgcactgtgagatcaacgtggacgactgcaatccccccgttgaccccgtgtcccggagccccaagtgctttaacaacggcacctgcgtggaccaggtgggcggctacagctgcacctgcccgccgggcttcgtgggtgagcgctgtgagggggatgtcaacgagtgcctgtccaatccctgcgacgcccgtggcacccagaactgcgtgcagcgcgtcaatgacttccactgcgagtgccgtgctggtcacaccgggcgccgctgcgagtccgtcatcaatggctgcaaaggcaagccctgcaagaatgggggcacctgcgccgtggcctccaacaccgcccgcgggttcatctgcaagtgccctgcgggcttcgagggcgccacgtgtgagaatgacgctcgtacctgcggcagcctgcgctgcctcaacggcggcacatgcatctccggcccgcgcagccccacctgcctgtgcctgggccccttcacgggccccgaatgccagttcccggccagcagcccctgcctgggcggcaacccctgctacaaccaggggacctgtgagcccacatccgagagccccttctaccgttgcctgtgccccgccaaattcaacgggctcttgtgccacatcctggactacagcttcgggggtggggccgggcgcgacatccccccgccgctgatcgaggaggcgtgcgagctgcccgagtgccaggaggacgcgggcaacaaggtctgcagcctgcagtgcaacaaccacgcgtgcggctgggacggcggtgactgctccctcaacttcaatgacccctggaagaactgcacgcagtctctgcagtgctggaagtacttcagtgacggccactgtgacagccagtgcaactcagccggctgcctcttcgacggctttgactgccagcgtgcggaaggccagtgcaaccccctgtacgaccagtactgcaaggaccacttcagcgacgggcactgcgaccagggctgcaacagcgcggagtgcgagtgggacgggctggactgtgcggagcatgtacccgagaggctggcggccggcacgctggtggtggtggtgctgatgccgccggagcagctgcgcaacagctccttccacttcctgcgggagctcagccgcgtgctgcacaccaacgtggtcttcaagcgtgacgcacacggccagcagatgatcttcccctactacggccgcgaggaggagctgcgcaagcaccccatcaagcgtgccgccgagggctgggccgcacctgacgccctgctgggccaggtgaaggcctcgctgctccctggtggcagcgagggtgggcggcggcggagggagctggaccccatggacgtccgcggctccatcgtctacctggagattgacaaccggcagtgtgtgcaggcctcctcgcagtgcttccagagtgccaccgacgtggccgcattcctgggagcgctcgcctcgctgggcagcctcaacatcccctacaagatcgaggccgtgcagagtgagaccgtggagccgcccccgccggcgcagctgcacttcatgtacgtggcggcggccgcctttgtgcttctgttcttcgtgggctgcggggtgctgctgtcccgcaagcgccggcggatggcccccccgaccgatgtcagcctgggggacgagctccacttagacggcgaggacgtggcgatggcgcatgccgacgcgctagacgatttcgatctggacatgttgggggacggggattccccgggtccgggatttaccccccacgactccgccccctacggcgctctggatatggccgacttcgagtttgagcagatgtttaccgatgcccttggaattgacgagtacggtgggacgcgtatgaagctactgtcttctatcgaacaagcatgcgatatttgccgacttaaaaagctcaagtgctccaaagaaaaaccgaagtgcgccaagtgtctgaagaacaactgggagtgtcgctactctcccaaaaccaaaaggtctccgctgactagggcacatctgacagaagtggaatcaaggctagaaagactggaacagctatttctactgatttttcctcgagaagaccttgacatgattttgaaaatggattctttacaggatataaaagcattgttaacaggattatttgtacaagataatgtgaataaagatgccgtcacagatagattggcttcagtggagactgatatgcctctaacattgagacagcatagaataagtgcgacatcatcatcggaagagagtagtaacaaaggtcaaagacagttgactgtataa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

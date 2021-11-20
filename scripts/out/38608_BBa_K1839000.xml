@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1839000/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000"/>
+    <sbol:displayId>BBa_K1839000</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1839000"/>
+    <dcterms:title>BBa_K1839000</dcterms:title>
+    <dcterms:description>Ava_3858 demethyl 4-deoxygadusol (DDG) synthase</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Anabaena variabilis ATCC 29413 contains a 4-gene cluster Ava_3858 to Ava_3855 that codes for a biosynthetic pathway producing the mycosporine-like amino acid (MAA) shinorine. Genes Ava_3858 and Ava_3857 encode demethyl 4-deoxygadusol (DDG) synthase and O-methyltransferase (O-MT), respectively, which transform sedoheptulose-7-phosphate (SHP) from the Calvin-Benson-Bassham cycle into 4-deoxygadusol (4-DG), the core structure of mycosporines.</sbh:mutableDescription>
+    <dc:creator>Patrik D&apos;haeseleer</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>11141</igem:owner_id>
+    <igem:m_user_id>11141</igem:m_user_id>
+    <igem:group_u_list>_2265_</igem:group_u_list>
+    <sbh:mutableProvenance>Table S1 in [Balskus and Walsh, 2010] contains the gene locus tags and protein accession numbers for the genes in the shinorine biosynthesis gene cluster. Table S4 contains the PCR primers used for cloning the gene cluster.
+
+Ava_3858 corresponds to protein accession number ABA23463.1. The exact DNA sequence can be found in the genome sequence here:
+
+http://www.ncbi.nlm.nih.gov/nuccore/75699950?from=4804128&amp;to=4805360&amp;sat=4&amp;sat_key=105749970&amp;report=gbwithparts
+
+Note that the DNA sequence reported by that link is the reverse complement, since the gene is on the opposite strand in the genome sequence!</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-17T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-18T08:29:33+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This part uses the native cyanobacterial DNA sequence from Anabaena variabilis, with two small but important changes:
+
+1. We removed an EcoRI restriction site by changing the T in position 114 to a C: GAATTC -&gt; GAACTC.
+2. We accidentally forgot to include the stop codon in our design. Luckily the BioBrick suffix does include an in-frame TAG stop codon, but if you express the gene directly from this biobrick, you can expect an extra tyrosine at the C terminal of the protein.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475187/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475187"/>
+        <sbol:displayId>annotation2475187</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ATG start codon</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475187/range2475187/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475187/range2475187"/>
+            <sbol:displayId>range2475187</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>3</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000318"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/start"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475188/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475188"/>
+        <sbol:displayId>annotation2475188</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Ava_3858 coding region</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475188/range2475188/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/annotation2475188/range2475188"/>
+            <sbol:displayId>range2475188</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1230</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1839000_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000_sequence"/>
+    <sbol:displayId>BBa_K1839000_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1839000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1839000_sequence/1"/>
+    <sbol:elements>atgagtatcgtccaagcaaagtttgaagctaaggaaacatcttttcatgtagaaggttacgaaaagattgagtatgatttggtgtatgtagatggtatttttgaaatccagaactctgcactagcagatgtatatcaaggttttggacgatgcttggcgattgtagatgctaacgtcagtcggttgtatggtaatcaaattcaggcatatttccagtattatggtatagaactgaggctatttcctattaccattactgaaccagataagactattcaaactttcgagagagttatagatgtctttgcagatttcaaattagtccgcaaagaaccagtattagtcgtgggtggcggtttaattacagatgttgtcggctttgcttgttctacatatcgtcgcagcagcaattacatccgcattcctactacattgattggattaattgatgccagtgtagcaattaaggtagcagttaatcatcgcaaactgaaaaaccgtttgggtgcttatcatgcttctcgcaaagtatttttagatttctccttgttgcgtactctccctacagaccaagtacgtaacgggatggcggaattggtaaaaatcgctgtagtagcgcatcaagaagtttttgaattgttggagaagtacggcgaagaattactacgtactcattttggcaatatagatgcaactccagagattaaagaaatagcccatcgtttgacttacaaagctatccataagatgttggaattggaagttcccaacctgcatgagttagacctagatagggtgattgcttacggtcacacttggagtcccaccttggaacttgcgcctcgtctacccatgttccacggacacgccgttaatgtagatatggctttctcggcaacgatcgccgcccgtagaggatatattacaattgcagaacgcgatcgtattttaggattaatgagtcgcgttggtctatccctcgaccatcccatgttggatatagatattttgtggcgtggtactgaatctatcacattaactcgtgatggtttgttaagagctgctatgccaaaacccattggtgattgtgtcttcgtcaatgacctgacaagagaagaattagcagccgcattagctgaccacaaagaactttgtaccagttatccccgtggtggtgaaggtgtggatgtgtatcccgtttatcaaaaagaattaatcgggagtgttaaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

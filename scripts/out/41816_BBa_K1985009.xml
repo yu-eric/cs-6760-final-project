@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/categories/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/categories"/>
+    <sbol:displayId>categories</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry Categories</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/regulation/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/regulation/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/regulation"/>
+    <sbol:displayId>regulation</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>//regulation</dcterms:title>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/regulation/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+  </sbol:Collection>
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/regulation/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/categories/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009"/>
+    <sbol:displayId>BBa_K1985009</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985009"/>
+    <dcterms:title>BBa_K1985009</dcterms:title>
+    <dcterms:description>AraC pBAD mamOPXT</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">AraC pBAD mamOPTX</sbh:mutableDescription>
+    <dc:creator>Braulio Carrillo-Sanchez, Jasmine Cornish</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29337</igem:owner_id>
+    <igem:m_user_id>30560</igem:m_user_id>
+    <igem:group_u_list>_2452_</igem:group_u_list>
+    <sbh:mutableProvenance>BBa_K1321333, BBa_K1985006, BBa_K1985000, BBa_K1985001 and BBa_K1985002</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-20T07:35:03+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon optimised</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/component2514411/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514411"/>
+        <sbol:displayId>component2514411</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985001</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/component2514410/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514410"/>
+        <sbol:displayId>component2514410</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985002</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/component2514409/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514409"/>
+        <sbol:displayId>component2514409</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985000</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/component2514408/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514408"/>
+        <sbol:displayId>component2514408</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/component2514407/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514407"/>
+        <sbol:displayId>component2514407</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1321333</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514411/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514411"/>
+        <sbol:displayId>annotation2514411</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985001</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514411/range2514411/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514411/range2514411"/>
+            <sbol:displayId>range2514411</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+            <sbol:start>4754</sbol:start>
+            <sbol:end>5278</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514411/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514410/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514410"/>
+        <sbol:displayId>annotation2514410</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985002</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514410/range2514410/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514410/range2514410"/>
+            <sbol:displayId>range2514410</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+            <sbol:start>3938</sbol:start>
+            <sbol:end>4747</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514410/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514409/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514409"/>
+        <sbol:displayId>annotation2514409</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985000</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514409/range2514409/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514409/range2514409"/>
+            <sbol:displayId>range2514409</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+            <sbol:start>3122</sbol:start>
+            <sbol:end>3931</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514409/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514408/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514408"/>
+        <sbol:displayId>annotation2514408</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1985006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514408/range2514408/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514408/range2514408"/>
+            <sbol:displayId>range2514408</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+            <sbol:start>1217</sbol:start>
+            <sbol:end>3115</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514408/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514407/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514407"/>
+        <sbol:displayId>annotation2514407</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_K1321333</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514407/range2514407/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/annotation2514407/range2514407"/>
+            <sbol:displayId>range2514407</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1210</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009/component2514407/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1985001/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001"/>
+    <sbol:displayId>BBa_K1985001</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985001"/>
+    <dcterms:title>BBa_K1985001</dcterms:title>
+    <dcterms:description>mamT</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Usage: The mamT gene produces a protein that can be used to transfer electrons to iron molecules. It can be used in combination with other mam genes to form an electron transport complex (reference) that should form magnetic magnetite crystals when the cell is exposed to iron in solution. It was to assemble a construct of MamO, P, T and X in pSB1A3 for in vivo expression.   
+Biology:
+MamT is a proposed cytochrome protein (reference) due to the presence of a heme binding motif within its sequence. It forms a complex with other Mam proteins on the membrane of the native species, Magnetospirillum gryphiswaldense. Together they promote magnetite crystal maturation within an organelle called the magnetosome.</sbh:mutableDescription>
+    <dc:creator>Jasmine Cornish</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29337</igem:owner_id>
+    <igem:m_user_id>29337</igem:m_user_id>
+    <igem:group_u_list>_2452_</igem:group_u_list>
+    <sbh:mutableProvenance>The part comes from Magnetospirillum gryphiswaldense, sourced from Rokas Juodeikis in Professor Martin Warren&apos;s lab at the University of Kent.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-19T01:43:32+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon Optimised</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985001/annotation2522223/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/annotation2522223"/>
+        <sbol:displayId>annotation2522223</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>mamT</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985001/annotation2522223/range2522223/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/annotation2522223/range2522223"/>
+            <sbol:displayId>range2522223</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001/1"/>
+            <sbol:start>15</sbol:start>
+            <sbol:end>539</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1985002/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002"/>
+    <sbol:displayId>BBa_K1985002</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985002"/>
+    <dcterms:title>BBa_K1985002</dcterms:title>
+    <dcterms:description>mamX</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Usage: The mamX gene produces a protein that can be used to transfer electrons to iron molecules. It can be used in combination with other mam genes to form an electron transport complex (reference) that should form magnetic magnetite crystals when the cell is exposed to into in solution. It was to assemble a construct of MamO, P, T and X in pSB1A3 for in vivo expression. 
+Biology:
+MamX is a proposed cytochrome protein (reference) due to the presence of a heme binding motif within its sequence. It forms a complex with other Mam proteins on the membrane of the native species, Magnetospirillum gryphiswaldense. Together they promote magnetite crystal maturation within an organelle called the magnetosome.</sbh:mutableDescription>
+    <dc:creator>Jasmine Cornish</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29337</igem:owner_id>
+    <igem:m_user_id>29337</igem:m_user_id>
+    <igem:group_u_list>_2452_</igem:group_u_list>
+    <sbh:mutableProvenance>The part comes from Magnetospirillum gryphiswaldense, sourced from Rokas Juodeikis in Professor Martin Warren&apos;s lab at the University of Kent.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-19T01:45:03+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon Optimised</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985002/annotation2522235/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/annotation2522235"/>
+        <sbol:displayId>annotation2522235</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>mamX</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985002/annotation2522235/range2522235/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/annotation2522235/range2522235"/>
+            <sbol:displayId>range2522235</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002/1"/>
+            <sbol:start>15</sbol:start>
+            <sbol:end>824</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1985000/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000"/>
+    <sbol:displayId>BBa_K1985000</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985000"/>
+    <dcterms:title>BBa_K1985000</dcterms:title>
+    <dcterms:description>mamP</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Usage: The mamP gene produces a protein that can be used to transfer electrons to iron molecules. It can be used in combination with other mam genes to form an electron transport complex (reference) that should form magnetic magnetite crystals when the cell is exposed to iron in solution. It was to assemble a construct of MamO, P, T and X in pSB1A3 for in vivo expression.   
+Biology:
+MamP is a proposed cytochrome protein (reference) due to the presence of a heme binding motif within its sequence. It forms a complex with other Mam proteins on the membrane of the native species, Magnetospirillum gryphiswaldense. Together they promote magnetite crystal maturation within an organelle called the magnetosome.</sbh:mutableDescription>
+    <dc:creator>Jasmine Cornish</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29337</igem:owner_id>
+    <igem:m_user_id>29337</igem:m_user_id>
+    <igem:group_u_list>_2452_</igem:group_u_list>
+    <sbh:mutableProvenance>The part comes from Magnetospirillum gryphiswaldense, sourced from Rokas Juodeikis in Professor Martin Warren&apos;s lab at the University of Kent.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-12T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-19T01:32:45+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon Optimised</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985000/annotation2522185/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/annotation2522185"/>
+        <sbol:displayId>annotation2522185</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>mamP</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985000/annotation2522185/range2522185/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/annotation2522185/range2522185"/>
+            <sbol:displayId>range2522185</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000/1"/>
+            <sbol:start>15</sbol:start>
+            <sbol:end>827</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1985006/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006"/>
+    <sbol:displayId>BBa_K1985006</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985006"/>
+    <dcterms:title>BBa_K1985006</dcterms:title>
+    <dcterms:description>mamO</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">MamO is involved in crystal nucleation. 
+
+Biology:
+MamO is a proposed cytochrome protein (reference) due to the presence of a heme binding motif within its sequence. It forms a complex with other Mam proteins on the membrane of the native species, Magnetospirillum gryphiswaldense. Together they promote magnetite crystal maturation within an organelle called the magnetosome.</sbh:mutableDescription>
+    <dc:creator>Jasmine Cornish</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>29337</igem:owner_id>
+    <igem:m_user_id>29337</igem:m_user_id>
+    <igem:group_u_list>_2452_</igem:group_u_list>
+    <sbh:mutableProvenance>The part comes from Magnetospirillum gryphiswaldense, sourced from Rokas Juodeikis in Professor Martin Warren&apos;s lab at the University of Kent.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-13T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-19T02:32:22+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon Optimised</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1985006/annotation2522552/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/annotation2522552"/>
+        <sbol:displayId>annotation2522552</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>mamO</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1985006/annotation2522552/range2522552/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/annotation2522552/range2522552"/>
+            <sbol:displayId>range2522552</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006/1"/>
+            <sbol:start>15</sbol:start>
+            <sbol:end>1913</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333"/>
+    <sbol:displayId>BBa_K1321333</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1321333"/>
+    <dcterms:title>BBa_K1321333</dcterms:title>
+    <dcterms:description>pSB-AraC-pBAD</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This regulatory part is made up of the Arabinose-Inducible promoter, pBAD, and its transcriptional inhibitor/activator, AraC. AraC inhibits gene expression in the absence of Arabinose by binding to the operator units present within the AraC and pBAD promoter sequences, and producing a DNA loop that prevents the RNA polymerase and CAP from binding and initiating transcription. When Arabinose is supplied, this binds to the AraC dimer and releases it from the operator site found in the pBAD promoter, at the same time it enhances transcription by allowing binding to the enhancer sites upstream.</sbh:mutableDescription>
+    <dc:creator>Laura de Arroyo Garcia</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Available"/>
+    <igem:sampleStatus>In stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>21121</igem:owner_id>
+    <igem:m_user_id>4206</igem:m_user_id>
+    <igem:group_u_list>_1696_</igem:group_u_list>
+    <sbh:mutableProvenance>This part was cloned out of existing templates (such as BBa_K325218, BBa_325219, all of which contain sfGFP downstream of the pBAD promoter)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-07T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-17T12:27:41+00:00</dcterms:modified>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429237/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429237"/>
+        <sbol:displayId>annotation2429237</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>AraC</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429237/range2429237/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429237/range2429237"/>
+            <sbol:displayId>range2429237</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>1041</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429238/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429238"/>
+        <sbol:displayId>annotation2429238</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>PC</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429238/range2429238/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429238/range2429238"/>
+            <sbol:displayId>range2429238</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+            <sbol:start>1042</sbol:start>
+            <sbol:end>1115</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429239/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429239"/>
+        <sbol:displayId>annotation2429239</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pBAD</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429239/range2429239/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/annotation2429239/range2429239"/>
+            <sbol:displayId>range2429239</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333/1"/>
+            <sbol:start>1116</sbol:start>
+            <sbol:end>1210</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1985009_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009_sequence"/>
+    <sbol:displayId>BBa_K1985009_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985009"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985009_sequence/1"/>
+    <sbol:elements>ttatgacaacttgacggctacatcattcactttttcttcacaaccggcacggaactcgctcgggctggccccggtgcattttttaaatacccgcgagaaatagagttgatcgtcaaaaccaacattgcgaccgacggtggcgataggcatccgggtggtgctcaaaagcagcttcgcctggctgatacgttggtcctcgcgccagcttaagacgctaatccctaactgctggcggaaaagatgtgacagacgcgacggcgacaagcaaacatgctgtgcgacgctggcgatatcaaaattgctgtctgccaggtgatcgctgatgtactgacaagcctcgcgtacccgattatccatcggtggatggagcgactcgttaatcgcttccatgcgccgcagtaacaattgctcaagcagatttatcgccagcagctccgaatagcgcccttccccttgcccggcgttaatgatttgcccaaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtaggcgcgcggacgaaagtaaacccactggtgataccattcgcgagcctccggatgacgaccgtagtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtgagattgagaatataacctttcattcccagcggtcggtcgataaaaaaatcgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccatacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaaagccatgacaaaaacgcgtaacaaaagtgtctataatcacggcagaaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggctagctactagatgattgaaattggcgagaccatgggtgatcagcccaccaacaaaatcgtcttttgcgagcggtcgtggaaagcgcctgtctccatcctggcgttcctgatcctagtgactttcgcctggggggcctatctcctcgacaactacgacgaggacgactacttccgtggtagcgacgatatgtcggtcggccaattcctggtccgcaacgtcgccatgcctgatgtgcagcggctgtactatacagtaccaccggcggtggtcggtgtggggggcggcggcgtcaatgccggtcccgtcgcttcgggtgccatcgttggcgccaatggctatgtcattacgaccctgcattccgtcgccaatgtgccggacatcacggtccaggttgccacctctgctggaatccgtcggtttcccgcccaggtggtcaagaccattccgggccataatctcgcgctgctgaagttgcagacgaccgagaagttcttgcatttccgcatggcaaacattcaaaccgtggtccccggccagcaggttttcgccttcggtcggaacatggccggtgcgcctctggtacggcagggcatggtgcaatcctccgatgctccgctggcggtggggaccactcagatcacccatctgctgcgttccgacgcggtctatagctgggagcagaccggcggtcctctggttaatgctcagggtgatctggtaggtatcaacattgccgcaaccggtcccaccggcaaggtcgaaggctttaccgttcctgctcaggtgatcgtctcccatcttcaggacgtcgtgcgattcaagaccggtggcgccgcgggagttgctcctcccgcggcccaaactgtggccatgggatcctctagctggtggtctaaggccaaagcggtggtcggagggccgaccgccgtaccgggaatgggcatgaatgtggtgcaagggacggtgacgaccgggattccctcgggcatgccgtttgtcgataccgaccatgtgggaggggccaagatcggcggatattccatcgccgatattctcggcctaggcatgcttgccctggcggccggtgtcacgggtggcatgatgaccatgggcggcggagtgcttcaggtcgctggcatgatggtcttcttcggctatggcatgtatctgatccggccggtggtcttcctgaccaatgtcgtggtctatggcgcagcggcgcttcgcaatgataaggcccaactggttcagtgggacaaggtgaaaccgctgatcccttggggcgtcgctggcgtggtcatcggttatttcatcggtaacgccatcggagattccgtggtgggcgtgctgcttggtctcttcgccctgatcatggcaggcaaggcggtgttggaaattctgcaacccaatgcgggggaggatacggctgaagccattgctgccgccgaggctggcgatgagatggacgaactgatggctctggcggaaggaacaaccaggcccaagaccagcggcattgctttgccagagggtccaacccgttcagcggtactggggctgcccatgggcctgttcagcggcattctcggtatcagcggcggcgtcatcgaggttccgttgcagcgttatattgggcggatcagtctgcaaaacgccattgccaacagttcggtcctggtgttctgggcctcggtcgccggttcagtggtagcctttattcatggcggcagcaccggtcttattcattgggaggctccggtaacattggcgctggtgatgatcccaggtgcttatgttggcggcattctcggcgctcggttgatgcgggtgttgcctgtccgggtgcttaagggtatctatgcggcaaccatggccgctatcgccatcaagatgctgacaacggtgtaatactagatgaatagcaaactcgtcctgctggtggtgggtgtcgtttttgcactggtgcttgtcattgggcggcaggggggcgtcgttgctcctcagtcgatcagcgtttcgcctcagatgtcgactgcggctccggtcgctgccccgattgcttttccgcaggcgaccaatgtggccatggcggtggagcccatggccgcggcgggtggtaccgtggctgcaatggagtcgcccttgcccaatttcgttccgcgcaatctcaaggtctttgaaggccattggcagggcatggacggacgtctgatgaccgaggaactggcccgaaagttgaactatcctcgtggagtgcagggcgttctgttgggcgaggttactttgaacgcggcgttcagcggtctgttggggggggatgtcgtcgttcggattgatgacactccagtcaccaatatggaaaatttccaggcagctacccgcaatgtggcgaaccggtccgaggcgcggatcagcgtgatccgtaaggacaaccgtcccggcaccccggtcttgcgcaaactgaccgtggttttgcgcgcggccgaaggcggtttgggctttgcccagttggaaggcgcccccatgatccttccgggcgatcctcggccccatggatatcgcggcgcctgcaccgattgccatccggtaggccagggattcgaattgtcgcccgatcctgatctcatcagcctgccgccttcggccataacgcgtgatgcggttacccggggcgtcagtccccacgaagttcgtggcccgtgcgaagcttgccacgtgataaattactagatgaacaccaaagccgttgcacatcccgacatcgccgtctggatcatggcgttgggcattgccttcagcatggccctagttctgaccgcgctgttcaatgccaatccgtgggaagatcacacctacgatctggcgcctcccattgtcgctgggatggccgccccccatcgcgatggccgcgagaagatggtctgctccagctgccatatcgtcacccccgcttccgccgctaccggtccgggcgcgggcacgctgcccatcgttgagggaaccccggcgccgcatgtggatggacgcgagaagatggcctgcgccagttgccacaccatcgtgaagaagggcagcgttgccaagagcggcaaggcaagccccgctccggtggcattctcgcagggcatgcccttacccgaggcgatgagcgtggcgctggcggttaccccggcaccggcgcccctgggcaacgaagcgcatgagcggatggtgcccttccgctatcaaggcaagatcgtcagcgtggcgggcgctggcacccgctcggtctggggtgatatctatattcagatcaacgatgggatcaatcctcccatgtggatcgaccttgccccgctctggttcctgcaagcggagggctgcttggtccgtcccggtatgttcgtcaagggcaccgccttccgcgacccgacccaggcgagcgccgggctggattacgccatgagcgtcatggccaatggcgaagtctgtgccctgcgtgacgaccatctcaacggcctgtgggctaatgttggaggcgtggatgccgaagagcggtaatactagatgggtacgccagggggcggccgtcgctggatgaccttgatctcgatcaccttgctgatggtggtcggactgggactctattgggatgagctgtccctctccgccggcatctcccccgccacatcgccccgtcgggcggaggggcttttgttggggcggctgcccttgcccatggagccttcgattctgtcgccgctggagcatctcattgagccgccgcttcagtacaagctgatgaccattcgtcatatcccgccggtaatgccggggacaggcatgccccatccctatgtgggggattgcatccaatgccatctgatggtcggtggccccgctgccggatcacagttcaagacgccctatggcgccgtactggaaaacctgtcgcgggtccgcaaactggggcctcccattcttcccacgacgcgccagccgcatccgcctgccgggcgctgcattaagtgccatgacattgtggtcaaggtgcctgtggaaaagaagtccggcattaaatggctgttgtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1985001_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001_sequence"/>
+    <sbol:displayId>BBa_K1985001_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985001"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985001_sequence/1"/>
+    <sbol:elements>aggaggaattacatatgggtacgccagggggcggccgtcgctggatgaccttgatctcgatcaccttgctgatggtggtcggactgggactctattgggatgagctgtccctctccgccggcatctcccccgccacatcgccccgtcgggcggaggggcttttgttggggcggctgcccttgcccatggagccttcgattctgtcgccgctggagcatctcattgagccgccgcttcagtacaagctgatgaccattcgtcatatcccgccggtaatgccggggacaggcatgccccatccctatgtgggggattgcatccaatgccatctgatggtcggtggccccgctgccggatcacagttcaagacgccctatggcgccgtactggaaaacctgtcgcgggtccgcaaactggggcctcccattcttcccacgacgcgccagccgcatccgcctgccgggcgctgcattaagtgccatgacattgtggtcaaggtgcctgtggaaaagaagtccggcattaaatggctgttgtaatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1985002_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002_sequence"/>
+    <sbol:displayId>BBa_K1985002_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985002"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985002_sequence/1"/>
+    <sbol:elements>aggaggaattacatatgaacaccaaagccgttgcacatcccgacatcgccgtctggatcatggcgttgggcattgccttcagcatggccctagttctgaccgcgctgttcaatgccaatccgtgggaagatcacacctacgatctggcgcctcccattgtcgctgggatggccgccccccatcgcgatggccgcgagaagatggtctgctccagctgccatatcgtcacccccgcttccgccgctaccggtccgggcgcgggcacgctgcccatcgttgagggaaccccggcgccgcatgtggatggacgcgagaagatggcctgcgccagttgccacaccatcgtgaagaagggcagcgttgccaagagcggcaaggcaagccccgctccggtggcattctcgcagggcatgcccttacccgaggcgatgagcgtggcgctggcggttaccccggcaccggcgcccctgggcaacgaagcgcatgagcggatggtgcccttccgctatcaaggcaagatcgtcagcgtggcgggcgctggcacccgctcggtctggggtgatatctatattcagatcaacgatgggatcaatcctcccatgtggatcgaccttgccccgctctggttcctgcaagcggagggctgcttggtccgtcccggtatgttcgtcaagggcaccgccttccgcgacccgacccaggcgagcgccgggctggattacgccatgagcgtcatggccaatggcgaagtctgtgccctgcgtgacgaccatctcaacggcctgtgggctaatgttggaggcgtggatgccgaagagcggtaatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1985000_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000_sequence"/>
+    <sbol:displayId>BBa_K1985000_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985000"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985000_sequence/1"/>
+    <sbol:elements>aggaggaattacatatgaatagcaaactcgtcctgctggtggtgggtgtcgtttttgcactggtgcttgtcattgggcggcaggggggcgtcgttgctcctcagtcgatcagcgtttcgcctcagatgtcgactgcggctccggtcgctgccccgattgcttttccgcaggcgaccaatgtggccatggcggtggagcccatggccgcggcgggtggtaccgtggctgcaatggagtcgcccttgcccaatttcgttccgcgcaatctcaaggtctttgaaggccattggcagggcatggacggacgtctgatgaccgaggaactggcccgaaagttgaactatcctcgtggagtgcagggcgttctgttgggcgaggttactttgaacgcggcgttcagcggtctgttggggggggatgtcgtcgttcggattgatgacactccagtcaccaatatggaaaatttccaggcagctacccgcaatgtggcgaaccggtccgaggcgcggatcagcgtgatccgtaaggacaaccgtcccggcaccccggtcttgcgcaaactgaccgtggttttgcgcgcggccgaaggcggtttgggctttgcccagttggaaggcgcccccatgatccttccgggcgatcctcggccccatggatatcgcggcgcctgcaccgattgccatccggtaggccagggattcgaattgtcgcccgatcctgatctcatcagcctgccgccttcggccataacgcgtgatgcggttacccggggcgtcagtccccacgaagttcgtggcccgtgcgaagcttgccacgtgataaattaatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1985006_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006_sequence"/>
+    <sbol:displayId>BBa_K1985006_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1985006"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1985006_sequence/1"/>
+    <sbol:elements>aggaggaattacatatgattgaaattggcgagaccatgggtgatcagcccaccaacaaaatcgtcttttgcgagcggtcgtggaaagcgcctgtctccatcctggcgttcctgatcctagtgactttcgcctggggggcctatctcctcgacaactacgacgaggacgactacttccgtggtagcgacgatatgtcggtcggccaattcctggtccgcaacgtcgccatgcctgatgtgcagcggctgtactatacagtaccaccggcggtggtcggtgtggggggcggcggcgtcaatgccggtcccgtcgcttcgggtgccatcgttggcgccaatggctatgtcattacgaccctgcattccgtcgccaatgtgccggacatcacggtccaggttgccacctctgctggaatccgtcggtttcccgcccaggtggtcaagaccattccgggccataatctcgcgctgctgaagttgcagacgaccgagaagttcttgcatttccgcatggcaaacattcaaaccgtggtccccggccagcaggttttcgccttcggtcggaacatggccggtgcgcctctggtacggcagggcatggtgcaatcctccgatgctccgctggcggtggggaccactcagatcacccatctgctgcgttccgacgcggtctatagctgggagcagaccggcggtcctctggttaatgctcagggtgatctggtaggtatcaacattgccgcaaccggtcccaccggcaaggtcgaaggctttaccgttcctgctcaggtgatcgtctcccatcttcaggacgtcgtgcgattcaagaccggtggcgccgcgggagttgctcctcccgcggcccaaactgtggccatgggatcctctagctggtggtctaaggccaaagcggtggtcggagggccgaccgccgtaccgggaatgggcatgaatgtggtgcaagggacggtgacgaccgggattccctcgggcatgccgtttgtcgataccgaccatgtgggaggggccaagatcggcggatattccatcgccgatattctcggcctaggcatgcttgccctggcggccggtgtcacgggtggcatgatgaccatgggcggcggagtgcttcaggtcgctggcatgatggtcttcttcggctatggcatgtatctgatccggccggtggtcttcctgaccaatgtcgtggtctatggcgcagcggcgcttcgcaatgataaggcccaactggttcagtgggacaaggtgaaaccgctgatcccttggggcgtcgctggcgtggtcatcggttatttcatcggtaacgccatcggagattccgtggtgggcgtgctgcttggtctcttcgccctgatcatggcaggcaaggcggtgttggaaattctgcaacccaatgcgggggaggatacggctgaagccattgctgccgccgaggctggcgatgagatggacgaactgatggctctggcggaaggaacaaccaggcccaagaccagcggcattgctttgccagagggtccaacccgttcagcggtactggggctgcccatgggcctgttcagcggcattctcggtatcagcggcggcgtcatcgaggttccgttgcagcgttatattgggcggatcagtctgcaaaacgccattgccaacagttcggtcctggtgttctgggcctcggtcgccggttcagtggtagcctttattcatggcggcagcaccggtcttattcattgggaggctccggtaacattggcgctggtgatgatcccaggtgcttatgttggcggcattctcggcgctcggttgatgcgggtgttgcctgtccgggtgcttaagggtatctatgcggcaaccatggccgctatcgccatcaagatgctgacaacggtgtaatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1321333_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333_sequence"/>
+    <sbol:displayId>BBa_K1321333_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1321333"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1321333_sequence/1"/>
+    <sbol:elements>ttatgacaacttgacggctacatcattcactttttcttcacaaccggcacggaactcgctcgggctggccccggtgcattttttaaatacccgcgagaaatagagttgatcgtcaaaaccaacattgcgaccgacggtggcgataggcatccgggtggtgctcaaaagcagcttcgcctggctgatacgttggtcctcgcgccagcttaagacgctaatccctaactgctggcggaaaagatgtgacagacgcgacggcgacaagcaaacatgctgtgcgacgctggcgatatcaaaattgctgtctgccaggtgatcgctgatgtactgacaagcctcgcgtacccgattatccatcggtggatggagcgactcgttaatcgcttccatgcgccgcagtaacaattgctcaagcagatttatcgccagcagctccgaatagcgcccttccccttgcccggcgttaatgatttgcccaaacaggtcgctgaaatgcggctggtgcgcttcatccgggcgaaagaaccccgtattggcaaatattgacggccagttaagccattcatgccagtaggcgcgcggacgaaagtaaacccactggtgataccattcgcgagcctccggatgacgaccgtagtgatgaatctctcctggcgggaacagcaaaatatcacccggtcggcaaacaaattctcgtccctgatttttcaccaccccctgaccgcgaatggtgagattgagaatataacctttcattcccagcggtcggtcgataaaaaaatcgagataaccgttggcctcaatcggcgttaaacccgccaccagatgggcattaaacgagtatcccggcagcaggggatcattttgcgcttcagccatacttttcatactcccgccattcagagaagaaaccaattgtccatattgcatcagacattgccgtcactgcgtcttttactggctcttctcgctaaccaaaccggtaaccccgcttattaaaagcattctgtaacaaagcgggaccaaagccatgacaaaaacgcgtaacaaaagtgtctataatcacggcagaaaagtccacattgattatttgcacggcgtcacactttgctatgccatagcatttttatccataagattagcggatcctacctgacgctttttatcgcaactctctactgtttctccatacccgtttttttgggctagc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

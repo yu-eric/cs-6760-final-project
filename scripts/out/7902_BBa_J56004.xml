@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56005/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56006/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56004_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56005_sequence/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_J56006_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J56004/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004"/>
+    <sbol:displayId>BBa_J56004</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56004"/>
+    <dcterms:title>BBa_J56004</dcterms:title>
+    <dcterms:description>&lt;Composite&gt; Tar EA400 binds to  BBa_J56001</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Tar EA400 is chemoreceptor designed to bind to part BBa_J56001 (Chew VM108). It consists of two domains, a periplasmic (sensory) domain, and a cytoplasmic (signaling) domain.</sbh:mutableDescription>
+    <dc:creator>Matt Eames</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>98</igem:owning_group_id>
+    <igem:owner_id>1132</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_79_98_</igem:group_u_list>
+    <sbh:mutableProvenance>Synthesized by DNA 2.0</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-31T12:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T03:22:59+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The sequence was codon-optimized as to avoid recombination with highly similar PheTar</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Composite"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_J56004/component1909468/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/component1909468"/>
+        <sbol:displayId>component1909468</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_J56005</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_J56005/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_J56004/component1909469/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/component1909469"/>
+        <sbol:displayId>component1909469</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_J56006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_J56006/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_J56004/annotation1909468/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/annotation1909468"/>
+        <sbol:displayId>annotation1909468</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_J56005</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_J56004/annotation1909468/range1909468/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/annotation1909468/range1909468"/>
+            <sbol:displayId>range1909468</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>771</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/component1909468/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_J56004/annotation1909469/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/annotation1909469"/>
+        <sbol:displayId>annotation1909469</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_J56006</dcterms:title>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_J56004/annotation1909469/range1909469/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/annotation1909469/range1909469"/>
+            <sbol:displayId>range1909469</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <igem:direction rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/1"/>
+            <sbol:start>780</sbol:start>
+            <sbol:end>1670</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_J56004/component1909469/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J56004_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J56005/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56005"/>
+    <sbol:displayId>BBa_J56005</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56005"/>
+    <dcterms:title>BBa_J56005</dcterms:title>
+    <dcterms:description>Codon-optimized aspartate receptor, the periplasmic domain of Tar</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This is the codon-optimized periplamic domain of Tar, an aspartate receptor. Combined with part BBa_J56006, it is the complete sequence of Tar.</sbh:mutableDescription>
+    <dc:creator>Matt Eames</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>98</igem:owning_group_id>
+    <igem:owner_id>1132</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_79_98_</igem:group_u_list>
+    <sbh:mutableProvenance>Synthesized by DNA 2.0</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-31T12:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T03:22:59+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon-optimized to avoid recombination with similar sequences in system</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56005/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J56005_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_J56006/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56006"/>
+    <sbol:displayId>BBa_J56006</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56006"/>
+    <dcterms:title>BBa_J56006</dcterms:title>
+    <dcterms:description>Codon-optimized signaling domain, cytoplasmic domain of Tar</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The codon-optimized cytoplasmic domain of the aspartate receptor Tar, with a single point mutation of EA400 (position 400 in the full sequence), coding for the last 253 amino acids of the full protein. Combined with BBa_J56005, it will encode the full sequence of Tar (EA400)</sbh:mutableDescription>
+    <dc:creator>Matt Eames</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable"/>
+    <igem:sampleStatus>Not in stock</igem:sampleStatus>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>98</igem:owning_group_id>
+    <igem:owner_id>1132</igem:owner_id>
+    <igem:m_user_id>0</igem:m_user_id>
+    <igem:group_u_list>_79_98_</igem:group_u_list>
+    <sbh:mutableProvenance>Synthesized by DNA 2.0</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-31T12:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-31T03:22:59+00:00</dcterms:modified>
+    <igem:experience rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#experience/None"/>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Codon-optimized to avoid recombination with similar sequences in system</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56006/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_J56006_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J56004_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56004_sequence"/>
+    <sbol:displayId>BBa_J56004_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56004"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56004_sequence/1"/>
+    <sbol:elements>atgatcaaccgtattcgtgttgtaacgctgctggtaatggttctgggtgttttcgcgctgctgcaactgatttctggtagcctgtttttctcctctctgcaccatagccagaaaagtttcgtcgttagcaaccagctgcgcgagcagcagggcgaactgacctctacgtgggatctgatgctgcagacccgcatcaacctgagccgttctgcggttcgtatgatgatggactcctccaaccagcagagcaacgctaaagttgaactgctggactccgcccgtaaaactctggctcaggcggcgacccactacaaaaagttcaaatctatggctccgctgccggaaatggtggcgacttcccgtaacatcgacgaaaaatacaagaactattacaccgcgctgacggaactgattgactacctggactacggcaacaccggcgcatacttcgctcagccgactcagggtatgcagaacgctatgggcgaagcatttgctcagtacgcactgtctagcgagaagctgtaccgtgatattgttacggacaatgcagacgactatcgtttcgctcagtggcagctggcagtcattgcgctggtggttgtactgattctgctggtcgcgtggtacggtatccgtcgtatgctgctgaccccgctggcgaaaatcatcgctcacatccgtgagatcgctggtggcaacctggctaacaccctgaccatcgacggtcgctctgaaatgggtgatctggcgcagtctgtttcccacatgtactagagcaacgtagcctgaccgacaccgtgacccacgtgcgtgaaggttccgatgcaatctatgcaggcacccgcgaaattgctgctggtaacaccgatctgtccagccgcactgaacaacaggcttctgccctggaggaaaccgccgcttccatggagcaactgacggcaacggtaaaacagaatgctgataatgcccgccaggcgtcccagctggcgcagagcgcctccgatacggctcaacacggcggtaaagtagtggacggtgtagttaagactatgcatgagatcgcagactctagcaagaaaatcgctgacatcatcagcgttatcgatggcattgcgttccagacgaacattctggcgctgaatgctgcggtagaagcagcgcgtgctggcgaacagggccgtggcttcgctgtcgttgctggtgctgttcgtaatctggcttctcgttctgctcaggcagcgaaagaaatcaaagcgctgatcgaagatagcgttagccgcgttgacaccggttctgttctggtggagtctgcaggtgaaaccatgaacaacattgttaacgcagttactcgcgttaccgacatcatgggtgaaattgcttctgcgtctgacgaacaatcccgtggtatcgatcaggttgctctggctgtttccgaaatggaccgtgtaacgcagcaaaatgctagcctggttcaggaaagcgcagcagccgcggcagcgctggaagaacaggcgtctcgtctgacccaggcagtttctgcttttcgtctggcggcgagcccactgaccaacaaacctcaaactccgtcccgtccggcatctgaacagccgccggctcagccacgtctgcgtattgccgaacaggacccgaactgggaaaccttctaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J56005_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56005_sequence"/>
+    <sbol:displayId>BBa_J56005_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56005"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56005_sequence/1"/>
+    <sbol:elements>atgatcaaccgtattcgtgttgtaacgctgctggtaatggttctgggtgttttcgcgctgctgcaactgatttctggtagcctgtttttctcctctctgcaccatagccagaaaagtttcgtcgttagcaaccagctgcgcgagcagcagggcgaactgacctctacgtgggatctgatgctgcagacccgcatcaacctgagccgttctgcggttcgtatgatgatggactcctccaaccagcagagcaacgctaaagttgaactgctggactccgcccgtaaaactctggctcaggcggcgacccactacaaaaagttcaaatctatggctccgctgccggaaatggtggcgacttcccgtaacatcgacgaaaaatacaagaactattacaccgcgctgacggaactgattgactacctggactacggcaacaccggcgcatacttcgctcagccgactcagggtatgcagaacgctatgggcgaagcatttgctcagtacgcactgtctagcgagaagctgtaccgtgatattgttacggacaatgcagacgactatcgtttcgctcagtggcagctggcagtcattgcgctggtggttgtactgattctgctggtcgcgtggtacggtatccgtcgtatgctgctgaccccgctggcgaaaatcatcgctcacatccgtgagatcgctggtggcaacctggctaacaccctgaccatcgacggtcgctctgaaatgggtgatctggcgcagtctgtttcccacatg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_J56006_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_J56006_sequence"/>
+    <sbol:displayId>BBa_J56006_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_J56006"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_J56006_sequence/1"/>
+    <sbol:elements>caacgtagcctgaccgacaccgtgacccacgtgcgtgaaggttccgatgcaatctatgcaggcacccgcgaaattgctgctggtaacaccgatctgtccagccgcactgaacaacaggcttctgccctggaggaaaccgccgcttccatggagcaactgacggcaacggtaaaacagaatgctgataatgcccgccaggcgtcccagctggcgcagagcgcctccgatacggctcaacacggcggtaaagtagtggacggtgtagttaagactatgcatgagatcgcagactctagcaagaaaatcgctgacatcatcagcgttatcgatggcattgcgttccagacgaacattctggcgctgaatgctgcggtagaagcagcgcgtgctggcgaacagggccgtggcttcgctgtcgttgctggtgctgttcgtaatctggcttctcgttctgctcaggcagcgaaagaaatcaaagcgctgatcgaagatagcgttagccgcgttgacaccggttctgttctggtggagtctgcaggtgaaaccatgaacaacattgttaacgcagttactcgcgttaccgacatcatgggtgaaattgcttctgcgtctgacgaacaatcccgtggtatcgatcaggttgctctggctgtttccgaaatggaccgtgtaacgcagcaaaatgctagcctggttcaggaaagcgcagcagccgcggcagcgctggaagaacaggcgtctcgtctgacccaggcagtttctgcttttcgtctggcggcgagcccactgaccaacaaacctcaaactccgtcccgtccggcatctgaacagccgccggctcagccacgtctgcgtattgccgaacaggacccgaactgggaaaccttctaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

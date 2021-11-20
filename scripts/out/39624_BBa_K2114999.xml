@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K2114999/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K2114999/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K2114999"/>
+    <sbol:displayId>BBa_K2114999</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K2114999"/>
+    <dcterms:title>BBa_K2114999</dcterms:title>
+    <dcterms:description>pelB_aGFPnano_TEV_10XHis</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">+++ TEST TEST TEST +++
+
+The discovery of camelid heavy-chain antibodies and their subsequent modification to single-domain antibodies also called nanobodies1,2 provide researchers with a wide range of tools including labeling methods for imaging, receptor modulation or therapeutic agents. They exhibit a small size of only 15 kDa and their easy structure enables a high-efficiency production in bacterial strains such as E. coli. The anti-GFP nanobody represents an established and well characterized variant of those proteins. In order to directly utilize their functionality, the purification of the over-expressed nanobody provides the advantage of acquiring a highly concentrated protein solution. The BioBrick in the iGEM registry BBa_K929104 contains the full sequence of the anti-GFP nanobody. However, the purification of proteins from a bacterial lysate involves a specific affinity tag by which they can be enriched. An anti-GFP nanobody variant containing a 10XHis-Tag and a TEV protease cleavage site was provided to us by our supervisor Dr. Maximilian Ulbrich. The His-Tag enables the purification by standard nickel columns while the TEV cleavage site allows the . To further avoid the formation of inclusion bodies and increase the yield of purified nanobodies an additional pelB leader sequence was included at the N-terminal section of the nanobody resulting in its transport into the periplasmatic space of the expressing E. coli. The pelB leader sequence  facilitates the export of the protein into the periplasmatic space and therefore ensures the proper folding of the nanobody by providing an oxidative environment which promotes the formation of the characteristic disulfide bond.
+
++++ TEST TEST TEST +++</sbh:mutableDescription>
+    <dc:creator>Wladislaw Stroukov</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>32299</igem:owner_id>
+    <igem:m_user_id>32299</igem:m_user_id>
+    <igem:group_u_list>_2582_</igem:group_u_list>
+    <sbh:mutableProvenance>the anti-GFP nanobody was provided by Dr. Maximilian Ulbrich (BIOSS)</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-04T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-05T06:10:32+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">To ensure the formation of the characteristic disulfide bond of the nanobody the pelB leader sequence was included in the N-terminus of the nanobody by primer extensions and Gibson assembly.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K2114999/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Coding"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+  </sbol:ComponentDefinition>
+</rdf:RDF>

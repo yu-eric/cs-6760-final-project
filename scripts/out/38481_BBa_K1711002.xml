@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <sbol:Collection rdf:about="https://synbiohub.org/public/igem/igem_collection/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/igem_collection"/>
+    <sbol:displayId>igem_collection</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/"/>
+    <dcterms:title>iGEM Parts Registry</dcterms:title>
+    <dcterms:description>The iGEM Registry is a growing collection of genetic parts that can be mixed and matched to build synthetic biology devices and systems.  As part of the synthetic biology community&apos;s efforts to make biology easier to engineer, it provides a source of genetic parts to iGEM teams and academic labs.</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T15:00:00.000Z</dcterms:created>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/igem_collection/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002/1"/>
+    <sbol:member rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002_sequence/1"/>
+  </sbol:Collection>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1711002/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002"/>
+    <sbol:displayId>BBa_K1711002</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1711002"/>
+    <dcterms:title>BBa_K1711002</dcterms:title>
+    <dcterms:description>yeVenus-PEST-TheoA; Coding sequence for destabilized YFP Venus and theophylline-sensitive aptazyme</dcterms:description>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:mutableDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">This part, yeVenus-PEST-TheoA, contains the coding sequence for a hybrid protein made of yeast enhanced yellow fluorescent protein (yeVenus) fused in frame with the CDS of the PEST-rich 178 c-terminal residues of Cln2, which targets the protein for ubiquitin dependent degradation. These coding sequences are fused with a gene for a theophylline sensitive riboswitch aptazyme. The aptazyme portion of the transcript self-cleaves in the absence of theophylline and no YFP should be produced. The theophylline bound state stabilizes the transcript, which translates to the protein and fluorescence should be observed.</sbh:mutableDescription>
+    <dc:creator>Anastasia Nicolov</dc:creator>
+    <igem:status rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning"/>
+    <igem:dominant>false</igem:dominant>
+    <igem:discontinued>false</igem:discontinued>
+    <sbh:bookmark>false</sbh:bookmark>
+    <sbh:star>false</sbh:star>
+    <igem:owning_group_id>9</igem:owning_group_id>
+    <igem:owner_id>23387</igem:owner_id>
+    <igem:m_user_id>23387</igem:m_user_id>
+    <igem:group_u_list>_2131_</igem:group_u_list>
+    <sbh:mutableProvenance>yeVenus is a modified yellow fluorescent protein that originates from the genome of A. victoria.  The theophylline-sensitive aptamer originates from the genome of S. cerevisiae.  PEST, the destabilizing region, is a common sequence that codes for a peptide rich in proline, glutamic acid, serine, and threonine, which has a short half-life and is easily degraded.  Coding sequence for yellow fluorescence protein was given to us by Klavins lab at University of Washington. The aptazyme sequence was given to us by the Smolke lab at Stanford [1].  The fusion protein was constructed according to the methods described by Mateus and Avery in their 2000 paper about destabilized GFP [2].
+
+[1] Townshend B, Kennedy AB, Xiang JS, Smolke CD. High-throughput cellular RNA device engineering.  Nature Methods, Jun 2015. doi:10.1038/nmeth.3486
+
+[2] Mateus C, Avery SV. Destabilized green fluorescent protein for monitoring dynamic changes in yeast gene expression with flow cytometry. Yeast, Oct 2000. 16(14):1313-23.</sbh:mutableProvenance>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-17T11:00:00+00:00</dcterms:created>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-18T05:48:37+00:00</dcterms:modified>
+    <sbh:mutableNotes rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The original paper describes how the PEST sequence was restriction cloned into the CDS for GFP. since we used YFP we had to make sure that the same restriction site appeared in it???s CDS as well and that it was at the same location, which it was.</sbh:mutableNotes>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Composite"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequence rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/public/igem/BBa_K1711002_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002_sequence"/>
+    <sbol:displayId>BBa_K1711002_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K1711002"/>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.org/public/igem/igem2sbol/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/myers"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/james"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/public/igem/BBa_K1711002_sequence/1"/>
+    <sbol:elements>atgtctaaaggtgaagaattattcactggtgttgtcccaattttggttgaattagatggtgatgttaatggtcacaaattttctgtctccggtgaaggtgaaggtgatgctacttacggtaaattgaccttaaaattgatttgtactactggtaaattgccagttccatggccaaccttagtcactactttaggttatggtttgcaatgttttgctagatacccagatcatatgaaacaacatgactttttcaagtctgccatgccagaaggttatgttcaagaaagaactatttttttcaaagatgacggtaactacaagaccagagctgaagtcaagtttgaaggtgataccttagttaatagaatcgaattaaaaggtattgattttaaagaagatggtaacattttaggtcacaaattggaatacaactataactctcacaatgtttacatcactgctgacaaacaaaagaatggtatcaaagctaacttcaaaattagacacaacattgaagatggtggtgttcaattagctgaccattatcaacaaaatactccaattggtgatggtccagtcttgttaccagacaaccattacttatcctatcaatctgccttatccaaagatccaaacgaaaagagagaccacatggtcttgttagaatttgttactgctgctggtattacccatggtattgatgaattgtacaaagcatccaacttgaacatttcgagaaagcttaccatatcaaccccatcatgctctttcgaaaattcaaatagcacatccattccttcgcccgcttcctcatctcaaagccacactccaatgagaaacatgagctcactctctgataacagcgttttcagccggaatatggaacaatcatcaccaatcactccaagtatgtaccaatttggtcagcagcagtcaaacagtatatgtggtagcaccgttagtgtgaatagtctggtgaatacaaataacaaacaaaggatctacgaacaaatcacgggtcctaacagcaataacgcaaccaatgattatattgatttgctaaacctaaatgagtctaacaaggaaaaccaaaatcccgcaacggcgcattacctcaatgggggcccacccaagacaagcttcattaaccatggaatgttcccctcgccaactgggaccataaatagcggtaaatctagcagtgcctcatctttaatttcttttggtatgggcaatacccaagtaatatagtgaggaagtggtagtggtagtggaagcggtagtggcagtaaacaaacaaagctgtcaccggaataccagcatcgtcttgatgcccttggaagtccggtctgatgagtccaaagaggacgaaacagcaaaaagaaaaataaaaatga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>
